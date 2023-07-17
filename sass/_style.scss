@@ -6,9 +6,14 @@ header{
     .logo{
         height:80px;
     }
-    .mainbuttons{
-        height: 80px;
+    .buttonsdiv{
+        width:780px;
+        display: flex;
+        justify-content: space-between;
+        .mainbuttons{
+            height: 80px;
+            width:140px;
         
-    
+        }
     }
 }

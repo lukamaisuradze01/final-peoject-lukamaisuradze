@@ -1,1 +1,1 @@
-header{display:flex;justify-content:space-between;padding:5px 30px}header .logo{height:80px}header .mainbuttons{height:80px}
+header{display:flex;justify-content:space-between;padding:5px 30px}header .logo{height:80px}header .buttonsdiv{width:780px;display:flex;justify-content:space-between}header .buttonsdiv .mainbuttons{height:80px;width:140px}
