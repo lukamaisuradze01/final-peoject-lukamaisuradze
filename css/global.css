@@ -1,17 +1,8 @@
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 5px 30px;
+  background-color: rgb(75, 75, 75);
+  padding: 4px 20px;
 }
-header .logo {
-  height: 80px;
-}
-header .buttonsdiv {
-  width: 780px;
+header .containerdiv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,20 +10,46 @@ header .buttonsdiv {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-header .buttonsdiv .mainbuttons {
+header .containerdiv .logodiv .logo {
   height: 80px;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+header .containerdiv .logodiv .logo:hover {
+  opacity: 0.7;
+}
+header .containerdiv .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 800px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header .containerdiv .buttons .redirect .mainbuttons {
+  cursor: pointer;
+  background-color: rgba(31, 31, 31, 0.918);
+  height: 60px;
   width: 140px;
-  border: none;
-  border-radius: 2px;
-  background-color: rgb(46, 46, 46);
-  -webkit-transform: skewX(20deg);
-          transform: skewX(20deg);
-}
-header .buttonsdiv .mainbuttons .innera {
-  display: inline-block;
   -webkit-transform: skewX(-20deg);
           transform: skewX(-20deg);
-  color: rgb(85, 85, 85);
+  border: none;
+  border-radius: 2px;
+  -webkit-transition: 0.19s;
+  transition: 0.19s;
+}
+header .containerdiv .buttons .redirect .mainbuttons:hover {
+  background-color: black;
+  height: 83px;
+  width: 143px;
+}
+header .containerdiv .buttons .redirect .mainbuttons:active {
+  background-color: rgba(31, 31, 31, 0.918);
+}
+header .containerdiv .buttons .redirect .mainbuttons .inside {
+  color: rgb(82, 82, 82);
+  -webkit-transform: skewX(20deg);
+          transform: skewX(20deg);
   font-size: 17px;
-  font-family: "Kanit", sans-serif;
 }/*# sourceMappingURL=global.css.map */
