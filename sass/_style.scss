@@ -61,12 +61,15 @@ header{
 
 //section1
 .section1{
-    height:900px;
+    height:500px;
+    
     .secdiv{
-        height:575px;
+        height:540px;
+        position: relative;
+
         .videoo{
             width:100%;
-            position: relative;
+            position: absolute;
 
         }
 

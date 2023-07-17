@@ -55,14 +55,15 @@ header .containerdiv .buttons .redirect .mainbuttons .inside {
 }
 
 .section1 {
-  height: 900px;
+  height: 500px;
 }
 .section1 .secdiv {
-  height: 575px;
+  height: 540px;
+  position: relative;
 }
 .section1 .secdiv .videoo {
   width: 100%;
-  position: relative;
+  position: absolute;
 }
 .section1 .secdiv .plus {
   position: absolute;
