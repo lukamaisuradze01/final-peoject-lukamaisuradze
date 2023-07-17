@@ -59,4 +59,66 @@ header{
     }
 }
 
-//hovers
+//section1
+.section1{
+    height:900px;
+    .secdiv{
+        height:575px;
+        .videoo{
+            width:100%;
+            position: relative;
+
+        }
+
+        .plus{
+            position: absolute;
+            top:1px;
+            height:100%;
+            width:500px;
+            .box{
+                position: relative;
+                height:100%;
+                
+            
+                .videotext{
+                    position: absolute;
+                    top:40%;
+                    left:7%;
+                    font-size:50px;
+                    color:rgb(207, 172, 12);
+                    font-family: 'Kanit', sans-serif;
+                    font-weight:700;
+
+                    
+                }
+                .text2{
+                    position: absolute;
+                    top:52%;
+                    left:7%;
+                    font-size:24px;
+                    color:rgb(207, 172, 12);
+                    font-family: 'Kanit', sans-serif;
+                    font-weight:700;
+
+                }
+                .text3{
+                    position: absolute;
+                    top:90%;
+                    left:10%;
+                    color: rgb(207, 172, 12);
+                    font-family: 'Kanit', sans-serif;
+                    font-weight:700;
+                    cursor: pointer;
+                    transition: 0.30s;
+                    &:hover{
+                        opacity: 0.6;
+                    }
+                    
+                    
+                    
+
+                }
+            }
+        }
+    }
+}

@@ -52,4 +52,57 @@ header .containerdiv .buttons .redirect .mainbuttons .inside {
   -webkit-transform: skewX(20deg);
           transform: skewX(20deg);
   font-size: 17px;
+}
+
+.section1 {
+  height: 900px;
+}
+.section1 .secdiv {
+  height: 575px;
+}
+.section1 .secdiv .videoo {
+  width: 100%;
+  position: relative;
+}
+.section1 .secdiv .plus {
+  position: absolute;
+  top: 1px;
+  height: 100%;
+  width: 500px;
+}
+.section1 .secdiv .plus .box {
+  position: relative;
+  height: 100%;
+}
+.section1 .secdiv .plus .box .videotext {
+  position: absolute;
+  top: 40%;
+  left: 7%;
+  font-size: 50px;
+  color: rgb(207, 172, 12);
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+}
+.section1 .secdiv .plus .box .text2 {
+  position: absolute;
+  top: 52%;
+  left: 7%;
+  font-size: 24px;
+  color: rgb(207, 172, 12);
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+}
+.section1 .secdiv .plus .box .text3 {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  color: rgb(207, 172, 12);
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.section1 .secdiv .plus .box .text3:hover {
+  opacity: 0.6;
 }/*# sourceMappingURL=global.css.map */
