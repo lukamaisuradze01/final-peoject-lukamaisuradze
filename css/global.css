@@ -10,6 +10,10 @@ header .containerdiv {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+header .containerdiv .logodiv {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
 header .containerdiv .logodiv .logo {
   height: 80px;
   -webkit-transition: 0.15s;
@@ -21,6 +25,11 @@ header .containerdiv .logodiv .logo:hover {
 @media (max-width: 1189px) {
   header .containerdiv .logodiv .logo {
     height: 50px;
+  }
+}
+@media (max-width: 647px) {
+  header .containerdiv .logodiv .logo {
+    height: 30px;
   }
 }
 header .containerdiv .buttons {
@@ -74,6 +83,34 @@ header .containerdiv .buttons .redirect .mainbuttons .inside {
           transform: skewX(20deg);
   font-size: 17px;
 }
+header .containerdiv .icons {
+  display: none;
+}
+header .containerdiv .icons .icon {
+  display: none;
+}
+@media (max-width: 800px) {
+  header .containerdiv .icons .icon {
+    display: inline-block;
+    font-size: 60px;
+    -webkit-transition: 0.15s;
+    transition: 0.15s;
+    cursor: pointer;
+  }
+  header .containerdiv .icons .icon:hover {
+    opacity: 0.6;
+  }
+}
+@media (max-width: 647px) {
+  header .containerdiv .icons .icon {
+    font-size: 30px;
+  }
+}
+@media (max-width: 800px) {
+  header .containerdiv .icons {
+    display: inline-block;
+  }
+}
 
 .section1 {
   height: 500px;
@@ -92,9 +129,24 @@ header .containerdiv .buttons .redirect .mainbuttons .inside {
   height: 100%;
   width: 500px;
 }
+@media (max-width: 500px) {
+  .section1 .secdiv .plus {
+    width: 100%;
+  }
+}
+@media (max-width: 567px) {
+  .section1 .secdiv .plus {
+    width: 100%;
+  }
+}
 .section1 .secdiv .plus .box {
   position: relative;
   height: 100%;
+}
+@media (max-width: 567px) {
+  .section1 .secdiv .plus .box {
+    height: 260px;
+  }
 }
 .section1 .secdiv .plus .box .videotext {
   position: absolute;
@@ -117,6 +169,25 @@ header .containerdiv .buttons .redirect .mainbuttons .inside {
     top: 21%;
   }
 }
+@media (max-width: 639px) {
+  .section1 .secdiv .plus .box .videotext {
+    font-size: 24px;
+    top: 10%;
+  }
+}
+@media (max-width: 567px) {
+  .section1 .secdiv .plus .box .videotext {
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 384px) {
+  .section1 .secdiv .plus .box .videotext {
+    font-size: 17px;
+  }
+}
 .section1 .secdiv .plus .box .text2 {
   position: absolute;
   top: 52%;
@@ -136,6 +207,17 @@ header .containerdiv .buttons .redirect .mainbuttons .inside {
   .section1 .secdiv .plus .box .text2 {
     font-size: 20px;
     top: 30%;
+  }
+}
+@media (max-width: 639px) {
+  .section1 .secdiv .plus .box .text2 {
+    font-size: 18px;
+    top: 20%;
+  }
+}
+@media (max-width: 567px) {
+  .section1 .secdiv .plus .box .text2 {
+    display: none;
   }
 }
 .section1 .secdiv .plus .box .text3 {
@@ -162,5 +244,35 @@ header .containerdiv .buttons .redirect .mainbuttons .inside {
   .section1 .secdiv .plus .box .text3 {
     font-size: 18px;
     top: 40%;
+  }
+}
+@media (max-width: 639px) {
+  .section1 .secdiv .plus .box .text3 {
+    font-size: 14px;
+    top: 30%;
+  }
+}
+@media (max-width: 567px) {
+  .section1 .secdiv .plus .box .text3 {
+    top: 70%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 567px) {
+  .section1 .secdiv .plus .box .text3 {
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+@media (max-width: 322px) {
+  .section1 .secdiv .plus .box .text3 {
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 }/*# sourceMappingURL=global.css.map */

@@ -8,6 +8,7 @@ header{
         
 
         .logodiv{
+            align-self: flex-end;
             .logo{
                 height:80px;
                 transition: 0.15s;
@@ -21,6 +22,10 @@ header{
                 @media (max-width:1189px){
                    height:50px;
                     
+                }
+
+                @media (max-width:647px){
+                    height:30px;
                 }
                 
 
@@ -43,7 +48,7 @@ header{
              }
 
 
-
+        
 
 
 
@@ -92,6 +97,42 @@ header{
                 }
             }
         }
+
+
+
+        .icons{
+            display: none;
+            .icon{
+                display: none;
+                
+                
+
+
+                @media (max-width:800px){
+                    display: inline-block;
+                    font-size: 60px;
+                    transition: 0.15s;
+                    cursor: pointer;
+                    
+                        
+                            
+                        
+                        &:hover{
+                            opacity: 0.6;
+                        }
+
+                 }
+                 @media (max-width:647px){
+                    font-size: 30px;
+                }
+            }
+
+
+
+            @media (max-width:800px){
+                display: inline-block;
+             }
+        }
     }
 }
 
@@ -120,10 +161,25 @@ header{
             top:1px;
             height:100%;
             width:500px;
+            @media (max-width:500px){
+                width:100%;
+            }
+            @media (max-width:567px){
+                width: 100%;
+            }
             .box{
                 position: relative;
                 height:100%;
                 
+
+                
+                
+                @media (max-width:567px){
+                    height:260px;
+
+
+                    
+                }
             
                 .videotext{
                     position: absolute;
@@ -147,8 +203,21 @@ header{
                         font-size:30px;
                         top:21%;
                     }
+                    @media (max-width:639px){
+                        font-size:24px;
+                        top:10%;
+                    }
+                    @media (max-width:567px){
+                        top:10%;
+                        left:50%;
+                        transform: translate(-50%, -50%);
+                    }
                     
-
+                    
+                    @media (max-width:384px){
+                        font-size:17px;
+                    }
+                    
                     
                 }
                 .text2{
@@ -174,10 +243,15 @@ header{
                     }
 
 
+                    @media (max-width:639px){
+                        font-size:18px;
+                        top:20%;
+                    }
 
 
-
-
+                    @media (max-width:567px){
+                        display: none;
+                    }
 
 
                 }
@@ -208,7 +282,31 @@ header{
                         top:40%;
                     }
                     
+                    @media (max-width:639px){
+                        font-size:14px;
+                        top:30%;
+                    }
                     
+
+
+                    @media (max-width:567px){
+                        top:70%;
+                        left:50%;
+                        transform: translate(-50%, -50%);
+                    }
+
+
+                    @media (max-width:567px){
+                        top:40%;
+                        left:50%;
+                        transform: translate(-50%, -50%);
+                    }
+
+                    @media (max-width:322px){
+                        top:30%;
+                        left:50%;
+                        transform: translate(-50%, -50%);
+                    }
 
                 }
             }
