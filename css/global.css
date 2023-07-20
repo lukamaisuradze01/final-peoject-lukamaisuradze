@@ -21,6 +21,7 @@ header .containerdiv .logodiv {
 header .containerdiv .logodiv .logo {
   height: 80px;
   -webkit-transition: 0.15s;
+  -o-transition: 0.15s;
   transition: 0.15s;
 }
 header .containerdiv .logodiv .logo:hover {
@@ -61,10 +62,12 @@ header .containerdiv .buttons .redirect .mainbuttons {
   height: 60px;
   width: 140px;
   -webkit-transform: skewX(-20deg);
+      -ms-transform: skewX(-20deg);
           transform: skewX(-20deg);
   border: none;
   border-radius: 2px;
   -webkit-transition: 0.19s;
+  -o-transition: 0.19s;
   transition: 0.19s;
 }
 @media (max-width: 1189px) {
@@ -84,6 +87,7 @@ header .containerdiv .buttons .redirect .mainbuttons:active {
 header .containerdiv .buttons .redirect .mainbuttons .inside {
   color: rgb(82, 82, 82);
   -webkit-transform: skewX(20deg);
+      -ms-transform: skewX(20deg);
           transform: skewX(20deg);
   font-size: 17px;
   font-weight: bold;
@@ -99,6 +103,7 @@ header .containerdiv .icons .icon {
     display: inline-block;
     font-size: 60px;
     -webkit-transition: 0.15s;
+    -o-transition: 0.15s;
     transition: 0.15s;
     cursor: pointer;
   }
@@ -191,6 +196,7 @@ header .containerdiv .icons .icon {
     top: 10%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
 }
@@ -240,6 +246,7 @@ header .containerdiv .icons .icon {
   font-weight: 700;
   cursor: pointer;
   -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 .section1 .secdiv .plus .box .text3:hover {
@@ -268,6 +275,7 @@ header .containerdiv .icons .icon {
     top: 70%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
 }
@@ -276,6 +284,7 @@ header .containerdiv .icons .icon {
     top: 40%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
 }
@@ -284,12 +293,13 @@ header .containerdiv .icons .icon {
     top: 30%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
   }
 }
 
 .s-2 {
-  margin-top: 30px;
+  margin-top: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -301,10 +311,25 @@ header .containerdiv .icons .icon {
       justify-content: space-around;
   background-color: rgb(71, 70, 70);
 }
+@media (max-width: 1893px) {
+  .s-2 {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 1735px) {
+  .s-2 {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 1366px) {
+  .s-2 {
+    margin-top: 20px;
+  }
+}
 .s-2 .div1 {
   padding: 10px;
   background-color: rgb(164, 163, 163);
-  height: 280px;
+  height: 350px;
   width: 620px;
   border-radius: 10px;
   display: -webkit-box;
@@ -316,6 +341,7 @@ header .containerdiv .icons .icon {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  z-index: 900;
 }
 .s-2 .div1 .p1 {
   color: var(--primary-text, #1D2130);
@@ -367,6 +393,7 @@ header .containerdiv .icons .icon {
   left: 50%;
   visibility: hidden;
   -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 .s-2 .div2 .imgdiv {
@@ -376,6 +403,7 @@ header .containerdiv .icons .icon {
 .s-2 .div2 .imgdiv .skorpion {
   height: 578px;
   -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   position: absolute;
   left: 0.2%;
@@ -386,6 +414,7 @@ header .containerdiv .icons .icon {
           animation-play-state: paused;
   -webkit-transition: -webkit-transform 0.5s ease;
   transition: -webkit-transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
@@ -397,6 +426,7 @@ header .containerdiv .icons .icon {
   -webkit-animation-play-state: running;
           animation-play-state: running;
   -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
 .s-2 .div2 .imgdiv .skorpion:not(:hover) img {

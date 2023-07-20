@@ -337,20 +337,34 @@ header{
 
 
 .s-2{
-    margin-top:30px;
+    margin-top:200px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: rgb(71, 70, 70);
+
+
+    @media (max-width:1893px){
+        margin-top:100px;
+    }
+
+   @media (max-width:1735px){
+    margin-top:70px;
+   }
+   @media (max-width:1366px){
+    margin-top:20px;
+   }
+
     .div1{
         padding: 10px;
         background-color: rgb(164, 163, 163);
-        height:280px;
+        height:350px;
         width:620px;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        z-index: 900;
      .p1{
         color: var(--primary-text, #1D2130);
         
