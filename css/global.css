@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(71, 70, 70);
+  background-color: rgb(0, 0, 0);
 }
 
 header {
-  background-color: rgb(75, 75, 75);
+  background-color: rgb(0, 0, 0);
   padding: 4px 20px;
 }
 header .containerdiv {
@@ -58,7 +58,7 @@ header .containerdiv .buttons {
 }
 header .containerdiv .buttons .redirect .mainbuttons {
   cursor: pointer;
-  background-color: rgba(31, 31, 31, 0.918);
+  background-color: rgba(43, 43, 43, 0.918);
   height: 60px;
   width: 140px;
   -webkit-transform: skewX(-20deg);
@@ -77,7 +77,7 @@ header .containerdiv .buttons .redirect .mainbuttons {
   }
 }
 header .containerdiv .buttons .redirect .mainbuttons:hover {
-  background-color: black;
+  background-color: rgb(27, 27, 27);
   height: 83px;
   width: 143px;
 }
@@ -124,7 +124,7 @@ header .containerdiv .icons .icon {
 
 .section1 {
   height: 700px;
-  background-color: rgb(71, 70, 70);
+  background-color: rgb(0, 0, 0);
 }
 @media (max-width: 1337px) {
   .section1 {
@@ -309,7 +309,7 @@ header .containerdiv .icons .icon {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: rgb(71, 70, 70);
+  background-color: rgb(0, 0, 0);
 }
 @media (max-width: 1893px) {
   .s-2 {
@@ -328,7 +328,7 @@ header .containerdiv .icons .icon {
 }
 .s-2 .div1 {
   padding: 10px;
-  background-color: rgb(164, 163, 163);
+  background-color: rgb(165, 165, 165);
   height: 350px;
   width: 620px;
   border-radius: 10px;
@@ -342,10 +342,12 @@ header .containerdiv .icons .icon {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   z-index: 900;
+  -webkit-box-shadow: rgb(255, 196, 0) 0px 50px 100px -20px, rgb(255, 196, 0) 0px 30px 60px -30px, rgb(255, 196, 0) 0px -2px 6px 0px inset;
+          box-shadow: rgb(255, 196, 0) 0px 50px 100px -20px, rgb(255, 196, 0) 0px 30px 60px -30px, rgb(255, 196, 0) 0px -2px 6px 0px inset;
 }
 .s-2 .div1 .p1 {
   color: var(--primary-text, #1D2130);
-  font-size: 16px;
+  font-size: 23px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -354,13 +356,14 @@ header .containerdiv .icons .icon {
   font-family: "Kanit", sans-serif;
 }
 .s-2 .div1 .game {
-  font-size: 30px;
-  font-family: "Kanit", sans-serif;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  font-family: "VT323", monospace;
 }
 .s-2 .div1 .lorem {
   color: var(--secondary-text, #525560);
   color: var(--secondary-text, #525560);
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;

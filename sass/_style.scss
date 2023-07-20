@@ -1,5 +1,5 @@
 body{
-   background-color: rgb(71, 70, 70);;
+   background-color: rgb(0, 0, 0);;
 }
 
 
@@ -8,7 +8,7 @@ body{
 
 
 header{
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(0, 0, 0);
     padding: 4px 20px;
     .containerdiv{
         display: flex;
@@ -63,7 +63,7 @@ header{
             .redirect{
                 .mainbuttons{
                     cursor: pointer;
-                    background-color: rgba(31, 31, 31, 0.918);
+                    background-color: rgba(43, 43, 43, 0.918);
                     height: 60px;
                     width:140px;
                     transform: skewX(-20deg);
@@ -84,7 +84,7 @@ header{
 
                         //hover and actives
                         &:hover{
-                            background-color:black ;
+                            background-color:rgb(27, 27, 27) ;
                             height:83px;
                             width:143px;
                             
@@ -155,7 +155,7 @@ header{
 //section1
 .section1{
     height:700px;
-    background-color: rgb(71, 70, 70);
+    background-color: rgb(0, 0, 0);
 
 
 
@@ -341,7 +341,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgb(71, 70, 70);
+    background-color: rgb(0, 0, 0);
 
 
     @media (max-width:1893px){
@@ -357,7 +357,7 @@ header{
 
     .div1{
         padding: 10px;
-        background-color: rgb(164, 163, 163);
+        background-color: rgb(165, 165, 165);
         height:350px;
         width:620px;
         border-radius: 10px;
@@ -365,10 +365,11 @@ header{
         flex-direction: column;
         justify-content: space-around;
         z-index: 900;
+        box-shadow: rgb(255, 196, 0) 0px 50px 100px -20px, rgba(255, 196, 0) 0px 30px 60px -30px, rgba(255, 196, 0) 0px -2px 6px 0px inset;
      .p1{
         color: var(--primary-text, #1D2130);
         
-        font-size: 16px;
+        font-size: 23px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -377,8 +378,10 @@ header{
         font-family: 'Kanit', sans-serif;
      }
      .game{
-        font-size:30px;
-        font-family: 'Kanit', sans-serif;
+        font-size:60px;
+        color: rgb(0, 0, 0);
+        font-family: 'VT323', monospace;
+
 
 
      }
@@ -387,7 +390,7 @@ header{
 
 
         color: var(--secondary-text, #525560);
-        font-size: 16px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: 160%;
