@@ -342,8 +342,8 @@ header .containerdiv .icons .icon {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   z-index: 900;
-  -webkit-box-shadow: rgb(255, 196, 0) 0px 50px 100px -20px, rgb(255, 196, 0) 0px 30px 60px -30px, rgb(255, 196, 0) 0px -2px 6px 0px inset;
-          box-shadow: rgb(255, 196, 0) 0px 50px 100px -20px, rgb(255, 196, 0) 0px 30px 60px -30px, rgb(255, 196, 0) 0px -2px 6px 0px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+          box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
 }
 .s-2 .div1 .p1 {
   color: var(--primary-text, #1D2130);
@@ -353,12 +353,12 @@ header .containerdiv .icons .icon {
   line-height: normal;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: "Kanit", sans-serif;
+  font-family: "Pangolin", cursive;
 }
 .s-2 .div1 .game {
   font-size: 60px;
   color: rgb(0, 0, 0);
-  font-family: "VT323", monospace;
+  font-family: "Pangolin", cursive;
 }
 .s-2 .div1 .lorem {
   color: var(--secondary-text, #525560);
@@ -382,25 +382,35 @@ header .containerdiv .icons .icon {
   font-family: "Kanit", sans-serif;
 }
 .s-2 .div2 {
-  border-radius: 10px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 20px;
   padding: 10px;
   background-color: rgb(164, 163, 163);
   position: relative;
 }
+.s-2 .div2:hover .name {
+  opacity: 1;
+  top: 10%;
+}
 .s-2 .div2 .name {
-  font-size: 130px;
+  font-size: 100px;
   position: absolute;
-  font-family: "Kanit", sans-serif;
-  color: rgb(255, 166, 0);
+  font-family: "Pangolin", cursive;
+  color: rgb(255, 179, 1);
   top: 8%;
   left: 50%;
-  visibility: hidden;
+  opacity: 0;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
 }
 .s-2 .div2 .imgdiv {
-  height: 630px;
+  height: 600px;
   width: 500px;
 }
 .s-2 .div2 .imgdiv .skorpion {
@@ -410,7 +420,7 @@ header .containerdiv .icons .icon {
   transition: 0.3s;
   position: absolute;
   left: 0.2%;
-  top: 2%;
+  top: 0;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
   -webkit-animation-play-state: paused;
@@ -432,9 +442,9 @@ header .containerdiv .icons .icon {
       -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
-.s-2 .div2 .imgdiv .skorpion:not(:hover) img {
-  -webkit-animation: bottomtotop 0.5s ease forwards;
-          animation: bottomtotop 0.5s ease forwards;
+.s-2 .div2 .imgdiv .skorpion:not(:hover).skorpion {
+  -webkit-animation: bottomtotop 0.9s ease forwards;
+          animation: bottomtotop 0.9s ease forwards;
 }
 @-webkit-keyframes toptobottom {
   0% {

@@ -365,7 +365,7 @@ header{
         flex-direction: column;
         justify-content: space-around;
         z-index: 900;
-        box-shadow: rgb(255, 196, 0) 0px 50px 100px -20px, rgba(255, 196, 0) 0px 30px 60px -30px, rgba(255, 196, 0) 0px -2px 6px 0px inset;
+        box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
      .p1{
         color: var(--primary-text, #1D2130);
         
@@ -375,12 +375,12 @@ header{
         line-height: normal;
         letter-spacing: 2px;
         text-transform: uppercase;
-        font-family: 'Kanit', sans-serif;
+        font-family: 'Pangolin', cursive;
      }
      .game{
         font-size:60px;
         color: rgb(0, 0, 0);
-        font-family: 'VT323', monospace;
+        font-family: 'Pangolin', cursive;
 
 
 
@@ -412,21 +412,36 @@ header{
     }
     .div2{
         
-        border-radius: 10px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 20px;
         padding: 10px;
         background-color: rgb(164, 163, 163);
         position: relative;
 
+        &:hover{
+            .name{
+                opacity: 1;
+                top: 10%;
+            }
+        }
+
+
 
         .name{
-            font-size: 130px;
+            font-size: 100px;
+            
+            
             position: absolute;
-            font-family: 'Kanit', sans-serif;
-            color: rgb(255, 166, 0);
+            
+            font-family: 'Pangolin', cursive;
+            color: rgb(255, 179, 1);
             top:8%;
             left: 50%;
-            visibility: hidden;
+            opacity: 0;
             transform: translate(-50%, -50%);
+            transition: 1s;
 
 
 
@@ -436,7 +451,7 @@ header{
 
 
         .imgdiv{
-            height:630px;
+            height:600px;
             width:500px;
             .skorpion{
             
@@ -444,7 +459,7 @@ header{
                 transition: 0.30s;
                 position: absolute;
                 left: 0.2%;
-                top:2%;
+                top:0;
 
                 animation-fill-mode: forwards;
                 animation-play-state: paused;
@@ -464,8 +479,8 @@ header{
                 }
 
 
-                &:not(:hover) img {
-                    animation: bottomtotop 0.5s ease forwards; 
+                &:not(:hover).skorpion {
+                    animation: bottomtotop 0.90s ease forwards; 
                   }
 
 
