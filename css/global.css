@@ -760,6 +760,12 @@ header .containerdiv .icons .icon {
   width: 600px;
   border: rgb(107, 72, 3) solid 6px;
 }
+.section4 .half .tag {
+  color: white;
+}
+.section4 .half .tag .mk {
+  color: rgb(255, 187, 0);
+}
 .section4 .half2 {
   height: 500px;
   width: 440px;
