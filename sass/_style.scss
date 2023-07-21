@@ -1,6 +1,10 @@
 body{
-   background-color: rgb(0, 0, 0);;
+  background-color: black;
+   background-image: url("../img/mid-bg.jpeg");
+   
 }
+
+
 
 
 //header
@@ -10,7 +14,9 @@ body{
 header{
     background-color: rgb(0, 0, 0);
     padding: 4px 20px;
+    
     .containerdiv{
+        
         display: flex;
         justify-content: space-between;
         
@@ -155,8 +161,10 @@ header{
 
 //section1
 .section1{
+    border-top: rgb(107, 72, 3) solid 5px;
     height:700px;
-    background-color: rgb(0, 0, 0);
+    
+    
 
 
 
@@ -212,6 +220,7 @@ header{
         .videoo{
             width:100%;
             position: absolute;
+            border-bottom: rgb(107, 72, 3) solid 6px;
 
         }
 
@@ -383,7 +392,8 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: rgb(0, 0, 0);
+ 
+    
 
    
 
@@ -413,6 +423,7 @@ header{
     .div1{
         padding: 10px;
         background-color: rgb(49, 47, 45);
+        border: rgb(107, 72, 3) solid 5px;
         height:350px;
         width:620px;
         border-radius: 10px;
@@ -420,10 +431,10 @@ header{
         flex-direction: column;
         justify-content: space-around;
         z-index: 900;
-        box-shadow: rgba(64, 64, 64, 0.25) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+        
      
      
-     
+        
         @media (max-width:1250px){
             height:400px;
             max-width:700px;
@@ -542,10 +553,12 @@ header{
      
     }
     .div2{
-        
+        border: rgb(107, 72, 3) solid 6px;
+       
         border-top-left-radius: 50%;
         border-top-right-radius: 20px;
         border-bottom-right-radius: 50%;
+       
         border-bottom-left-radius: 20px;
         padding: 10px;
         background-color: rgb(37, 36, 36);
@@ -614,6 +627,7 @@ header{
         .imgdiv{
             height:600px;
             width:500px;
+            
 
 
            
@@ -634,15 +648,16 @@ header{
                
             .skorpion{
             
-                height:578px;
+                height:540px;
                 transition: 0.30s;
                 position: absolute;
                 left: 0.2%;
-                top:0;
+                top:0%;
 
                 animation-fill-mode: forwards;
                 animation-play-state: paused;
                 transition: transform 0.5s ease;
+               
 
 
                 
@@ -654,6 +669,7 @@ header{
                     animation-duration: 1s;
                     animation-play-state: running;
                     transform: scale(1.1);
+                    transition: 1s;
 
 
                     
@@ -662,6 +678,7 @@ header{
 
                 &:not(:hover).skorpion {
                     animation: bottomtotop 0.90s ease forwards; 
+                    transition: 1s;
                   }
 
 
@@ -688,14 +705,14 @@ header{
 
 
                 @media (max-width:1250px){
-                    height:370px;
+                    height:330px;
                     width: 300px;
                    }
 
 
                    @media (max-width:600px){
-                    height: 140px;
-                    width:150px;
+                    height: 120px;
+                    width:130px;
                    }
                    
                    
@@ -713,6 +730,8 @@ header{
 
 
 .section3{
+    border-top: rgb(107, 72, 3) solid 5px;
+    border-bottom: rgb(107, 72, 3) solid 5px;
     width:100%;
     height:210px;
     background-color: rgb(59, 59, 59);

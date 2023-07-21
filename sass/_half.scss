@@ -1,0 +1,108 @@
+.section4{
+    
+    height:900px;
+    width: 100%;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .half{
+        height:700px;
+        width:600px;
+        border: rgb(107, 72, 3) solid 6px;
+    }
+    .half2{
+        height: 500px;
+        width: 440px;
+        border: rgb(107, 72, 3) solid 6px;
+        position: relative;
+        display: flex;
+       
+        justify-content: center;
+        background-color: rgb(37, 36, 36);
+
+        border-top-left-radius: 50%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 20px;
+        
+
+        &:hover{
+            .sbdiv{
+                opacity: 1;
+                transform: scale(1.1);
+                
+            }
+        }
+
+
+        .saibot{
+            height:350px;
+            width:300px;
+            position: absolute;
+            z-index: 100;
+            top:5%;
+            transition: 0.15s;
+
+            animation-fill-mode: forwards;
+                animation-play-state: paused;
+                transition: transform 0.5s ease;
+            
+            
+
+            &:hover{
+                animation-name: saibotmove;
+                animation-duration: 1s;
+                animation-play-state: running;
+                transform: scale(1.1);
+                    
+            }
+
+            &:not(:hover).saibot {
+                animation: bottomtotop2 0.90s ease forwards; 
+              }
+            
+        }
+
+        .sbdiv{
+            position: absolute;
+            height:400px;
+            width:350px;
+            opacity: 0;
+            transition: 1s;
+            
+            
+            .sbtxt{
+                color: rgb(35, 8, 99);
+                font-size:140px;
+                font-family: 'Pangolin', cursive;
+               
+            }
+        }
+
+    }
+}
+
+@keyframes bottomtotop2 {
+    0%{
+        top:20%
+    }
+    100%{
+        top:5%;
+    }
+}
+
+
+
+
+
+
+
+@keyframes saibotmove {
+    0%{
+        top:5%;
+    }
+    100%{
+        top:20%;
+    }
+}
