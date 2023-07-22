@@ -919,4 +919,249 @@ header .containerdiv .icons .icon {
   100% {
     top: 20%;
   }
+}
+@font-face {
+  font-family: "mklatino";
+  src: url("../FONTS/MkLatinoPlain.ttf") format("truetype");
+}
+.section5 {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.section5 .pack1 {
+  height: 500px;
+  width: 300px;
+  border: black solid;
+  background-color: white;
+}
+.section5 .pack1:not(:hover).pack1 .packimg {
+  -webkit-animation: packimgreverse 0.4s ease forwards;
+          animation: packimgreverse 0.4s ease forwards;
+}
+.section5 .pack1 .packdiv {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.section5 .pack1 .packdiv:hover .packimg {
+  -webkit-animation-name: packimg;
+          animation-name: packimg;
+  -webkit-animation-duration: 0.15s;
+          animation-duration: 0.15s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.section5 .pack1 .packdiv .packimg {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: white;
+  position: absolute;
+  height: 240px;
+  width: 200px;
+  bottom: 56%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+      -ms-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+.section5 .pack2 {
+  height: 500px;
+  width: 300px;
+  border: black solid;
+  background-color: white;
+}
+.section5 .pack2:not(:hover).pack2 .packimg {
+  -webkit-animation: packimgreverse 0.4s ease forwards;
+          animation: packimgreverse 0.4s ease forwards;
+}
+.section5 .pack2 .packdiv {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.section5 .pack2 .packdiv:hover .packimg {
+  -webkit-animation-name: packimg;
+          animation-name: packimg;
+  -webkit-animation-duration: 0.15s;
+          animation-duration: 0.15s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.section5 .pack2 .packdiv .packimg {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: white;
+  position: absolute;
+  height: 240px;
+  width: 200px;
+  bottom: 56%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+      -ms-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+.section5 .pack3 {
+  height: 500px;
+  width: 300px;
+  border: black solid;
+  background-color: white;
+}
+.section5 .pack3:not(:hover).pack3 .packimg {
+  -webkit-animation: packimgreverse 0.4s ease forwards;
+          animation: packimgreverse 0.4s ease forwards;
+}
+.section5 .pack3 .packdiv {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.section5 .pack3 .packdiv:hover .packimg {
+  -webkit-animation-name: packimg;
+          animation-name: packimg;
+  -webkit-animation-duration: 0.15s;
+          animation-duration: 0.15s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.section5 .pack3 .packdiv .packimg {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: white;
+  position: absolute;
+  height: 240px;
+  width: 200px;
+  bottom: 56%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+      -ms-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+.section5 .pack4 {
+  height: 500px;
+  width: 300px;
+  border: black solid;
+  background-color: white;
+}
+.section5 .pack4:not(:hover).pack4 .packimg {
+  -webkit-animation: packimgreverse 0.4s ease forwards;
+          animation: packimgreverse 0.4s ease forwards;
+}
+.section5 .pack4 .packdiv {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.section5 .pack4 .packdiv:hover .packimg {
+  -webkit-animation-name: packimg;
+          animation-name: packimg;
+  -webkit-animation-duration: 0.15s;
+          animation-duration: 0.15s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.section5 .pack4 .packdiv .packimg {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: white;
+  position: absolute;
+  height: 240px;
+  width: 200px;
+  bottom: 56%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+      -ms-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+@-webkit-keyframes packimg {
+  0% {
+    bottom: 56%;
+  }
+  100% {
+    bottom: 60%;
+    -webkit-box-shadow: rgba(255, 157, 0, 0.25) 0px 54px 55px, rgba(255, 157, 0, 0.25) 0px -12px 30px, rgba(255, 157, 0, 0.25) 0px 4px 6px, rgba(255, 157, 0, 0.25) 0px 12px 13px, rgba(255, 157, 0, 0.25) 0px -3px 5px;
+            box-shadow: rgba(255, 157, 0, 0.25) 0px 54px 55px, rgba(255, 157, 0, 0.25) 0px -12px 30px, rgba(255, 157, 0, 0.25) 0px 4px 6px, rgba(255, 157, 0, 0.25) 0px 12px 13px, rgba(255, 157, 0, 0.25) 0px -3px 5px;
+  }
+}
+@keyframes packimg {
+  0% {
+    bottom: 56%;
+  }
+  100% {
+    bottom: 60%;
+    -webkit-box-shadow: rgba(255, 157, 0, 0.25) 0px 54px 55px, rgba(255, 157, 0, 0.25) 0px -12px 30px, rgba(255, 157, 0, 0.25) 0px 4px 6px, rgba(255, 157, 0, 0.25) 0px 12px 13px, rgba(255, 157, 0, 0.25) 0px -3px 5px;
+            box-shadow: rgba(255, 157, 0, 0.25) 0px 54px 55px, rgba(255, 157, 0, 0.25) 0px -12px 30px, rgba(255, 157, 0, 0.25) 0px 4px 6px, rgba(255, 157, 0, 0.25) 0px 12px 13px, rgba(255, 157, 0, 0.25) 0px -3px 5px;
+  }
+}
+@-webkit-keyframes packimgreverse {
+  0% {
+    bottom: 60%;
+    -webkit-box-shadow: rgba(255, 157, 0, 0.25) 0px 54px 55px, rgba(255, 157, 0, 0.25) 0px -12px 30px, rgba(255, 157, 0, 0.25) 0px 4px 6px, rgba(255, 157, 0, 0.25) 0px 12px 13px, rgba(255, 157, 0, 0.25) 0px -3px 5px;
+            box-shadow: rgba(255, 157, 0, 0.25) 0px 54px 55px, rgba(255, 157, 0, 0.25) 0px -12px 30px, rgba(255, 157, 0, 0.25) 0px 4px 6px, rgba(255, 157, 0, 0.25) 0px 12px 13px, rgba(255, 157, 0, 0.25) 0px -3px 5px;
+  }
+  100% {
+    bottom: 56%;
+  }
+}
+@keyframes packimgreverse {
+  0% {
+    bottom: 60%;
+    -webkit-box-shadow: rgba(255, 157, 0, 0.25) 0px 54px 55px, rgba(255, 157, 0, 0.25) 0px -12px 30px, rgba(255, 157, 0, 0.25) 0px 4px 6px, rgba(255, 157, 0, 0.25) 0px 12px 13px, rgba(255, 157, 0, 0.25) 0px -3px 5px;
+            box-shadow: rgba(255, 157, 0, 0.25) 0px 54px 55px, rgba(255, 157, 0, 0.25) 0px -12px 30px, rgba(255, 157, 0, 0.25) 0px 4px 6px, rgba(255, 157, 0, 0.25) 0px 12px 13px, rgba(255, 157, 0, 0.25) 0px -3px 5px;
+  }
+  100% {
+    bottom: 56%;
+  }
 }/*# sourceMappingURL=global.css.map */
