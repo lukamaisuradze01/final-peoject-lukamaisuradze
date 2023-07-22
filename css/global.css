@@ -1,6 +1,9 @@
 body {
   background-color: black;
   background-image: url("../img/mid-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -742,6 +745,10 @@ header .containerdiv .icons .icon {
   }
 }
 
+@font-face {
+  font-family: "mklatino";
+  src: url("../FONTS/MkLatinoPlain.ttf") format("truetype");
+}
 .section4 {
   height: 900px;
   width: 100%;
@@ -756,15 +763,57 @@ header .containerdiv .icons .icon {
           align-items: center;
 }
 .section4 .half {
-  height: 700px;
+  height: 780x;
   width: 600px;
   border: rgb(107, 72, 3) solid 6px;
+  padding: 30px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.46);
 }
 .section4 .half .tag {
   color: white;
+  Font-size: 50px;
+  font-family: "mklatino";
 }
 .section4 .half .tag .mk {
   color: rgb(255, 187, 0);
+}
+.section4 .half .myhr {
+  border: rgb(107, 72, 3) solid 3px;
+  border-radius: 50%;
+  -webkit-box-shadow: black 5px 5px 5px 2px;
+          box-shadow: black 5px 5px 5px 2px;
+}
+.section4 .half .Stories {
+  font-family: "mklatino";
+  font-size: 30px;
+  color: rgb(255, 179, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section4 .half .myp {
+  color: rgb(210, 196, 4);
+  font-size: 20px;
+  font-family: "mklatino";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .section4 .half2 {
   height: 500px;

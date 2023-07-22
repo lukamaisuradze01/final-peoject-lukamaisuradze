@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'mklatino'; 
+    src: url('../FONTS/MkLatinoPlain.ttf') format('truetype');
+  }
 .section4{
     
     height:900px;
@@ -7,19 +11,64 @@
     justify-content: space-around;
     align-items: center;
     .half{
-        height:700px;
+        height:780x;
         width:600px;
         border: rgb(107, 72, 3) solid 6px;
+        padding: 30px;
+        border-top-left-radius: 70px ;
+        border-bottom-right-radius: 70px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.46);
+       
 
         .tag{
             color: white;
+            Font-size: 50px;
+            font-family: 'mklatino'; 
             .mk{
                 color:rgb(255, 187, 0);
+                
+                
                 
 
             }
         }
+        .myhr{
+            border: rgb(107, 72, 3) solid 3px;
+            border-radius: 50%;
+            box-shadow: black 5px 5px 5px 2px;
+            
+        }
+        .Stories{
+            font-family: 'mklatino'; 
+            font-size: 30px;
+            color: rgb(255, 179, 0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .myp{
+            color: rgb(210, 196, 4);
+            font-size:20px;
+            font-family: 'mklatino'; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
+
+
+
+
+
+
+
+
+
+
+
     .half2{
         height: 500px;
         width: 440px;
@@ -85,6 +134,7 @@
                 color: rgb(35, 8, 99);
                 font-size:140px;
                 font-family: 'Pangolin', cursive;
+                
                
             }
         }
