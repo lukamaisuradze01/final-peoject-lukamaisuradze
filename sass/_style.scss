@@ -1,11 +1,4 @@
-body{
-  background-color: black;
-   background-image: url("../img/mid-bg.jpeg");
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   
-}
+
 
 
 
@@ -160,6 +153,12 @@ header{
 
 
 
+
+.main{
+    background-image: url("../img/mid-bg.jpeg");
+    background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
 
 
 //section1
@@ -773,4 +772,6 @@ header{
         }
 
     }
+}
+
 }

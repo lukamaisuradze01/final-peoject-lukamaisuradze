@@ -5,24 +5,67 @@
 
 
 .section5{
+  background-color: rgba(0, 0, 0, 0.374);
 
-height:600px;
-display: flex;
+height:700px;
+
 justify-content: space-around;
 align-items: center;
 flex-wrap: wrap;
-  
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+
+
+
+.new{
+  height:100px;
+  width: 100%;
+  border-top: 3px solid #c1a768;
+  border-bottom: 5px solid #c1a768;
+
+  background: linear-gradient(90deg,#7a3d01 10%,#d89704 48%,#d89704 52%,#7a3d01 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .to{
+    font-size:50px;
+    font-family: 'mklatino'; 
+    color:white;
+  }
+}
+}
+
+
+//
+.packscont{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  justify-content: space-between;
+  padding:20px 20px;
   .pack1 {
     height:500px;
     width:300px;
     border: black solid;
     background-color: white;
 
+    border-radius:10px;
+
+
+    
+
     &:not(:hover).pack1{
       .packimg{
       animation: packimgreverse  0.40s ease forwards;
      
       }
+    }
     }
     
 
@@ -31,6 +74,10 @@ flex-wrap: wrap;
       width: 100%;
       position: relative;
       cursor: pointer;
+      &:active{
+        cursor: grab;
+      }
+  
 
       
 
@@ -87,6 +134,8 @@ flex-wrap: wrap;
     width:300px;
     border: black solid;
     background-color: white;
+    border-radius:10px;
+
 
     
 
@@ -104,6 +153,10 @@ flex-wrap: wrap;
       width: 100%;
       position: relative;
       cursor: pointer;
+      &:active{
+        cursor: grab;
+      }
+  
 
       
 
@@ -153,6 +206,8 @@ flex-wrap: wrap;
   width:300px;
   border: black solid;
   background-color: white;
+  border-radius:10px;
+
 
   
 
@@ -170,6 +225,11 @@ flex-wrap: wrap;
     width: 100%;
     position: relative;
     cursor: pointer;
+
+    &:active{
+      cursor: grab;
+    }
+
 
     
 
@@ -221,6 +281,9 @@ flex-wrap: wrap;
   border: black solid;
   background-color: white;
 
+  border-radius:10px;
+
+
   
 
   &:not(:hover).pack4{
@@ -237,6 +300,10 @@ flex-wrap: wrap;
     width: 100%;
     position: relative;
     cursor: pointer;
+    &:active{
+      cursor: grab;
+    }
+
 
     
 

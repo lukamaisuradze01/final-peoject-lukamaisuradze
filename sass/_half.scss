@@ -2,7 +2,10 @@
     font-family: 'mklatino'; 
     src: url('../FONTS/MkLatinoPlain.ttf') format('truetype');
   }
-.section4{
+
+.main2{
+    background-image: url('../img/main2.png');
+  .section4{
     
     height:900px;
     width: 100%;
@@ -164,4 +167,5 @@
     100%{
         top:20%;
     }
+}
 }

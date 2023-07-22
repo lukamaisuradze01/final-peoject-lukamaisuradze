@@ -1,11 +1,3 @@
-body {
-  background-color: black;
-  background-image: url("../img/mid-bg.jpeg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 header {
   background-color: rgb(0, 0, 0);
   padding: 4px 20px;
@@ -127,105 +119,111 @@ header .containerdiv .icons .icon {
   }
 }
 
-.section1 {
+.main {
+  background-image: url("../img/mid-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .section1 {
   border-top: rgb(107, 72, 3) solid 5px;
   height: 700px;
 }
 @media (max-width: 1337px) {
-  .section1 {
+  .main .section1 {
     height: 600px;
   }
 }
 @media (max-width: 900px) {
-  .section1 {
+  .main .section1 {
     height: 400px;
   }
 }
 @media (max-width: 1150px) {
-  .section1 {
+  .main .section1 {
     height: 500px;
   }
 }
 @media (max-width: 1000px) {
-  .section1 {
+  .main .section1 {
     height: 450px;
   }
 }
 @media (max-width: 886px) {
-  .section1 {
+  .main .section1 {
     height: 400px;
   }
 }
 @media (max-width: 767px) {
-  .section1 {
+  .main .section1 {
     height: 370px;
   }
 }
 @media (max-width: 721px) {
-  .section1 {
+  .main .section1 {
     height: 340px;
   }
 }
 @media (max-width: 600px) {
-  .section1 {
+  .main .section1 {
     height: 300px;
   }
 }
 @media (max-width: 540px) {
-  .section1 {
+  .main .section1 {
     height: 220px;
   }
 }
 @media (max-width: 465px) {
-  .section1 {
+  .main .section1 {
     height: 200px;
   }
 }
 @media (max-width: 384px) {
-  .section1 {
+  .main .section1 {
     height: 170px;
   }
 }
 @media (max-width: 290px) {
-  .section1 {
+  .main .section1 {
     height: 120px;
   }
 }
-.section1 .secdiv {
+.main .section1 .secdiv {
   height: 540px;
   position: relative;
 }
-.section1 .secdiv .videoo {
+.main .section1 .secdiv .videoo {
   width: 100%;
   position: absolute;
   border-bottom: rgb(107, 72, 3) solid 6px;
 }
-.section1 .secdiv .plus {
+.main .section1 .secdiv .plus {
   position: absolute;
   top: 1px;
   height: 100%;
   width: 500px;
 }
 @media (max-width: 500px) {
-  .section1 .secdiv .plus {
+  .main .section1 .secdiv .plus {
     width: 100%;
   }
 }
 @media (max-width: 567px) {
-  .section1 .secdiv .plus {
+  .main .section1 .secdiv .plus {
     width: 100%;
   }
 }
-.section1 .secdiv .plus .box {
+.main .section1 .secdiv .plus .box {
   position: relative;
   height: 100%;
 }
 @media (max-width: 567px) {
-  .section1 .secdiv .plus .box {
+  .main .section1 .secdiv .plus .box {
     height: 260px;
   }
 }
-.section1 .secdiv .plus .box .videotext {
+.main .section1 .secdiv .plus .box .videotext {
   position: absolute;
   top: 40%;
   left: 7%;
@@ -235,25 +233,25 @@ header .containerdiv .icons .icon {
   font-weight: 700;
 }
 @media (max-width: 1271px) {
-  .section1 .secdiv .plus .box .videotext {
+  .main .section1 .secdiv .plus .box .videotext {
     font-size: 40px;
     top: 30%;
   }
 }
 @media (max-width: 933px) {
-  .section1 .secdiv .plus .box .videotext {
+  .main .section1 .secdiv .plus .box .videotext {
     font-size: 30px;
     top: 21%;
   }
 }
 @media (max-width: 639px) {
-  .section1 .secdiv .plus .box .videotext {
+  .main .section1 .secdiv .plus .box .videotext {
     font-size: 24px;
     top: 10%;
   }
 }
 @media (max-width: 567px) {
-  .section1 .secdiv .plus .box .videotext {
+  .main .section1 .secdiv .plus .box .videotext {
     top: 10%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -262,11 +260,11 @@ header .containerdiv .icons .icon {
   }
 }
 @media (max-width: 384px) {
-  .section1 .secdiv .plus .box .videotext {
+  .main .section1 .secdiv .plus .box .videotext {
     font-size: 17px;
   }
 }
-.section1 .secdiv .plus .box .text2 {
+.main .section1 .secdiv .plus .box .text2 {
   position: absolute;
   top: 52%;
   left: 7%;
@@ -276,29 +274,29 @@ header .containerdiv .icons .icon {
   font-weight: 700;
 }
 @media (max-width: 1271px) {
-  .section1 .secdiv .plus .box .text2 {
+  .main .section1 .secdiv .plus .box .text2 {
     font-size: 26px;
     top: 40%;
   }
 }
 @media (max-width: 933px) {
-  .section1 .secdiv .plus .box .text2 {
+  .main .section1 .secdiv .plus .box .text2 {
     font-size: 20px;
     top: 30%;
   }
 }
 @media (max-width: 639px) {
-  .section1 .secdiv .plus .box .text2 {
+  .main .section1 .secdiv .plus .box .text2 {
     font-size: 18px;
     top: 20%;
   }
 }
 @media (max-width: 567px) {
-  .section1 .secdiv .plus .box .text2 {
+  .main .section1 .secdiv .plus .box .text2 {
     display: none;
   }
 }
-.section1 .secdiv .plus .box .text3 {
+.main .section1 .secdiv .plus .box .text3 {
   position: absolute;
   top: 90%;
   left: 10%;
@@ -310,29 +308,29 @@ header .containerdiv .icons .icon {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.section1 .secdiv .plus .box .text3:hover {
+.main .section1 .secdiv .plus .box .text3:hover {
   opacity: 0.6;
 }
 @media (max-width: 1271px) {
-  .section1 .secdiv .plus .box .text3 {
+  .main .section1 .secdiv .plus .box .text3 {
     font-size: 26px;
     top: 60%;
   }
 }
 @media (max-width: 933px) {
-  .section1 .secdiv .plus .box .text3 {
+  .main .section1 .secdiv .plus .box .text3 {
     font-size: 18px;
     top: 40%;
   }
 }
 @media (max-width: 639px) {
-  .section1 .secdiv .plus .box .text3 {
+  .main .section1 .secdiv .plus .box .text3 {
     font-size: 14px;
     top: 30%;
   }
 }
 @media (max-width: 567px) {
-  .section1 .secdiv .plus .box .text3 {
+  .main .section1 .secdiv .plus .box .text3 {
     top: 70%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -341,7 +339,7 @@ header .containerdiv .icons .icon {
   }
 }
 @media (max-width: 567px) {
-  .section1 .secdiv .plus .box .text3 {
+  .main .section1 .secdiv .plus .box .text3 {
     top: 40%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -350,7 +348,7 @@ header .containerdiv .icons .icon {
   }
 }
 @media (max-width: 322px) {
-  .section1 .secdiv .plus .box .text3 {
+  .main .section1 .secdiv .plus .box .text3 {
     top: 30%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -358,8 +356,7 @@ header .containerdiv .icons .icon {
             transform: translate(-50%, -50%);
   }
 }
-
-.s-2 {
+.main .s-2 {
   margin-top: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -372,22 +369,22 @@ header .containerdiv .icons .icon {
       justify-content: space-around;
 }
 @media (max-width: 1893px) {
-  .s-2 {
+  .main .s-2 {
     margin-top: 100px;
   }
 }
 @media (max-width: 1735px) {
-  .s-2 {
+  .main .s-2 {
     margin-top: 70px;
   }
 }
 @media (max-width: 1366px) {
-  .s-2 {
+  .main .s-2 {
     margin-top: 20px;
   }
 }
 @media (max-width: 320px) {
-  .s-2 {
+  .main .s-2 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -401,7 +398,7 @@ header .containerdiv .icons .icon {
     height: 340px;
   }
 }
-.s-2 .div1 {
+.main .s-2 .div1 {
   padding: 10px;
   background-color: rgb(49, 47, 45);
   border: rgb(107, 72, 3) solid 5px;
@@ -420,23 +417,23 @@ header .containerdiv .icons .icon {
   z-index: 900;
 }
 @media (max-width: 1250px) {
-  .s-2 .div1 {
+  .main .s-2 .div1 {
     height: 400px;
     max-width: 700px;
     width: 40%;
   }
 }
 @media (max-width: 600px) {
-  .s-2 .div1 {
+  .main .s-2 .div1 {
     height: 150px;
   }
 }
 @media (max-width: 320px) {
-  .s-2 .div1 {
+  .main .s-2 .div1 {
     width: 60%;
   }
 }
-.s-2 .div1 .p1 {
+.main .s-2 .div1 .p1 {
   color: rgb(255, 255, 255);
   font-size: 23px;
   font-style: normal;
@@ -447,41 +444,41 @@ header .containerdiv .icons .icon {
   font-family: "Pangolin", cursive;
 }
 @media (max-width: 1250px) {
-  .s-2 .div1 .p1 {
+  .main .s-2 .div1 .p1 {
     font-size: 19px;
   }
 }
 @media (max-width: 600px) {
-  .s-2 .div1 .p1 {
+  .main .s-2 .div1 .p1 {
     font-size: 10px;
   }
 }
-.s-2 .div1 .game {
+.main .s-2 .div1 .game {
   font-size: 60px;
   color: rgb(255, 255, 255);
   font-family: "Pangolin", cursive;
 }
 @media (max-width: 1250px) {
-  .s-2 .div1 .game {
+  .main .s-2 .div1 .game {
     font-size: 30px;
   }
 }
 @media (max-width: 600px) {
-  .s-2 .div1 .game {
+  .main .s-2 .div1 .game {
     font-size: 17px;
   }
 }
 @media (max-width: 434px) {
-  .s-2 .div1 .game {
+  .main .s-2 .div1 .game {
     font-size: 13px;
   }
 }
 @media (max-width: 300px) {
-  .s-2 .div1 .game {
+  .main .s-2 .div1 .game {
     font-size: 10px;
   }
 }
-.s-2 .div1 .lorem {
+.main .s-2 .div1 .lorem {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -490,26 +487,26 @@ header .containerdiv .icons .icon {
   font-family: "Kanit", sans-serif;
 }
 @media (max-width: 600px) {
-  .s-2 .div1 .lorem {
+  .main .s-2 .div1 .lorem {
     font-size: 14px;
   }
 }
 @media (max-width: 600px) {
-  .s-2 .div1 .lorem {
+  .main .s-2 .div1 .lorem {
     font-size: 10px;
   }
 }
 @media (max-width: 434px) {
-  .s-2 .div1 .lorem {
+  .main .s-2 .div1 .lorem {
     font-size: 8px;
   }
 }
 @media (max-width: 300px) {
-  .s-2 .div1 .lorem {
+  .main .s-2 .div1 .lorem {
     font-size: 7px;
   }
 }
-.s-2 .div1 .learn {
+.main .s-2 .div1 .learn {
   height: 50px;
   width: 120px;
   background-color: #70C174;
@@ -522,20 +519,20 @@ header .containerdiv .icons .icon {
   font-family: "Kanit", sans-serif;
 }
 @media (max-width: 600px) {
-  .s-2 .div1 .learn {
+  .main .s-2 .div1 .learn {
     height: 35px;
     width: 88px;
     font-size: 14px;
   }
 }
 @media (max-width: 434px) {
-  .s-2 .div1 .learn {
+  .main .s-2 .div1 .learn {
     height: 20px;
     width: 60px;
     font-size: 7px;
   }
 }
-.s-2 .div2 {
+.main .s-2 .div2 {
   border: rgb(107, 72, 3) solid 6px;
   border-top-left-radius: 50%;
   border-top-right-radius: 20px;
@@ -546,22 +543,22 @@ header .containerdiv .icons .icon {
   position: relative;
 }
 @media (max-width: 1250px) {
-  .s-2 .div2 {
+  .main .s-2 .div2 {
     height: 400px;
     width: 300px;
   }
 }
 @media (max-width: 600px) {
-  .s-2 .div2 {
+  .main .s-2 .div2 {
     height: 150px;
     width: 150px;
   }
 }
-.s-2 .div2:hover .name {
+.main .s-2 .div2:hover .name {
   opacity: 1;
   top: 10%;
 }
-.s-2 .div2 .name {
+.main .s-2 .div2 .name {
   font-size: 100px;
   position: absolute;
   font-family: "Pangolin", cursive;
@@ -577,37 +574,37 @@ header .containerdiv .icons .icon {
   transition: 1s;
 }
 @media (max-width: 928px) {
-  .s-2 .div2 .name {
+  .main .s-2 .div2 .name {
     font-size: 50px;
   }
 }
 @media (max-width: 500px) {
-  .s-2 .div2 .name {
+  .main .s-2 .div2 .name {
     font-size: 60px;
   }
 }
 @media (max-width: 475px) {
-  .s-2 .div2 .name {
+  .main .s-2 .div2 .name {
     font-size: 30px;
   }
 }
-.s-2 .div2 .imgdiv {
+.main .s-2 .div2 .imgdiv {
   height: 600px;
   width: 500px;
 }
 @media (max-width: 1250px) {
-  .s-2 .div2 .imgdiv {
+  .main .s-2 .div2 .imgdiv {
     height: 400px;
     width: 300px;
   }
 }
 @media (max-width: 600px) {
-  .s-2 .div2 .imgdiv {
+  .main .s-2 .div2 .imgdiv {
     height: 150px;
     width: 150px;
   }
 }
-.s-2 .div2 .imgdiv .skorpion {
+.main .s-2 .div2 .imgdiv .skorpion {
   height: 540px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -625,7 +622,7 @@ header .containerdiv .icons .icon {
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
-.s-2 .div2 .imgdiv .skorpion:hover {
+.main .s-2 .div2 .imgdiv .skorpion:hover {
   -webkit-animation-name: toptobottom;
           animation-name: toptobottom;
   -webkit-animation-duration: 1s;
@@ -639,7 +636,7 @@ header .containerdiv .icons .icon {
   -o-transition: 1s;
   transition: 1s;
 }
-.s-2 .div2 .imgdiv .skorpion:not(:hover).skorpion {
+.main .s-2 .div2 .imgdiv .skorpion:not(:hover).skorpion {
   -webkit-animation: bottomtotop 0.9s ease forwards;
           animation: bottomtotop 0.9s ease forwards;
   -webkit-transition: 1s;
@@ -679,19 +676,18 @@ header .containerdiv .icons .icon {
   }
 }
 @media (max-width: 1250px) {
-  .s-2 .div2 .imgdiv .skorpion {
+  .main .s-2 .div2 .imgdiv .skorpion {
     height: 330px;
     width: 300px;
   }
 }
 @media (max-width: 600px) {
-  .s-2 .div2 .imgdiv .skorpion {
+  .main .s-2 .div2 .imgdiv .skorpion {
     height: 120px;
     width: 130px;
   }
 }
-
-.section3 {
+.main .section3 {
   border-top: rgb(107, 72, 3) solid 5px;
   border-bottom: rgb(107, 72, 3) solid 5px;
   width: 100%;
@@ -716,31 +712,31 @@ header .containerdiv .icons .icon {
   background: linear-gradient(50deg, blue, red);
 }
 @media (max-width: 485px) {
-  .section3 {
+  .main .section3 {
     height: 150px;
   }
 }
-.section3 .develop {
+.main .section3 .develop {
   font-size: 28px;
   font-family: "Pangolin", cursive;
   color: yellow;
   font-weight: bold;
 }
 @media (max-width: 485px) {
-  .section3 .develop {
+  .main .section3 .develop {
     font-size: 20px;
   }
 }
 @media (max-width: 385px) {
-  .section3 .develop {
+  .main .section3 .develop {
     font-size: 15px;
   }
 }
-.section3 .nether {
+.main .section3 .nether {
   width: 150px;
 }
 @media (max-width: 485px) {
-  .section3 .nether {
+  .main .section3 .nether {
     width: 100px;
   }
 }
@@ -749,7 +745,10 @@ header .containerdiv .icons .icon {
   font-family: "mklatino";
   src: url("../FONTS/MkLatinoPlain.ttf") format("truetype");
 }
-.section4 {
+.main2 {
+  background-image: url("../img/main2.png");
+}
+.main2 .section4 {
   height: 900px;
   width: 100%;
   padding: 10px;
@@ -762,7 +761,7 @@ header .containerdiv .icons .icon {
       -ms-flex-align: center;
           align-items: center;
 }
-.section4 .half {
+.main2 .section4 .half {
   height: 780x;
   width: 600px;
   border: rgb(107, 72, 3) solid 6px;
@@ -773,21 +772,21 @@ header .containerdiv .icons .icon {
   border-bottom-left-radius: 10px;
   background-color: rgba(0, 0, 0, 0.46);
 }
-.section4 .half .tag {
+.main2 .section4 .half .tag {
   color: white;
   Font-size: 50px;
   font-family: "mklatino";
 }
-.section4 .half .tag .mk {
+.main2 .section4 .half .tag .mk {
   color: rgb(255, 187, 0);
 }
-.section4 .half .myhr {
+.main2 .section4 .half .myhr {
   border: rgb(107, 72, 3) solid 3px;
   border-radius: 50%;
   -webkit-box-shadow: black 5px 5px 5px 2px;
           box-shadow: black 5px 5px 5px 2px;
 }
-.section4 .half .Stories {
+.main2 .section4 .half .Stories {
   font-family: "mklatino";
   font-size: 30px;
   color: rgb(255, 179, 0);
@@ -801,7 +800,7 @@ header .containerdiv .icons .icon {
       -ms-flex-align: center;
           align-items: center;
 }
-.section4 .half .myp {
+.main2 .section4 .half .myp {
   color: rgb(210, 196, 4);
   font-size: 20px;
   font-family: "mklatino";
@@ -815,7 +814,7 @@ header .containerdiv .icons .icon {
       -ms-flex-align: center;
           align-items: center;
 }
-.section4 .half2 {
+.main2 .section4 .half2 {
   height: 500px;
   width: 440px;
   border: rgb(107, 72, 3) solid 6px;
@@ -832,13 +831,13 @@ header .containerdiv .icons .icon {
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 20px;
 }
-.section4 .half2:hover .sbdiv {
+.main2 .section4 .half2:hover .sbdiv {
   opacity: 1;
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
-.section4 .half2 .saibot {
+.main2 .section4 .half2 .saibot {
   height: 350px;
   width: 300px;
   position: absolute;
@@ -857,7 +856,7 @@ header .containerdiv .icons .icon {
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
-.section4 .half2 .saibot:hover {
+.main2 .section4 .half2 .saibot:hover {
   -webkit-animation-name: saibotmove;
           animation-name: saibotmove;
   -webkit-animation-duration: 1s;
@@ -868,11 +867,11 @@ header .containerdiv .icons .icon {
       -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
-.section4 .half2 .saibot:not(:hover).saibot {
+.main2 .section4 .half2 .saibot:not(:hover).saibot {
   -webkit-animation: bottomtotop2 0.9s ease forwards;
           animation: bottomtotop2 0.9s ease forwards;
 }
-.section4 .half2 .sbdiv {
+.main2 .section4 .half2 .sbdiv {
   position: absolute;
   height: 400px;
   width: 350px;
@@ -881,12 +880,11 @@ header .containerdiv .icons .icon {
   -o-transition: 1s;
   transition: 1s;
 }
-.section4 .half2 .sbdiv .sbtxt {
+.main2 .section4 .half2 .sbdiv .sbtxt {
   color: rgb(35, 8, 99);
   font-size: 140px;
   font-family: "Pangolin", cursive;
 }
-
 @-webkit-keyframes bottomtotop2 {
   0% {
     top: 20%;
@@ -895,7 +893,6 @@ header .containerdiv .icons .icon {
     top: 5%;
   }
 }
-
 @keyframes bottomtotop2 {
   0% {
     top: 20%;
@@ -920,15 +917,14 @@ header .containerdiv .icons .icon {
     top: 20%;
   }
 }
+
 @font-face {
   font-family: "mklatino";
   src: url("../FONTS/MkLatinoPlain.ttf") format("truetype");
 }
 .section5 {
-  height: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  background-color: rgba(0, 0, 0, 0.374);
+  height: 700px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -937,23 +933,81 @@ header .containerdiv .icons .icon {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.section5 .pack1 {
+.section5 .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.section5 .container .new {
+  height: 100px;
+  width: 100%;
+  border-top: 3px solid #c1a768;
+  border-bottom: 5px solid #c1a768;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #7a3d01), color-stop(48%, #d89704), color-stop(52%, #d89704), color-stop(90%, #7a3d01));
+  background: -o-linear-gradient(left, #7a3d01 10%, #d89704 48%, #d89704 52%, #7a3d01 90%);
+  background: linear-gradient(90deg, #7a3d01 10%, #d89704 48%, #d89704 52%, #7a3d01 90%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section5 .container .new .to {
+  font-size: 50px;
+  font-family: "mklatino";
+  color: white;
+}
+.section5 .packscont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 20px;
+}
+.section5 .packscont .pack1 {
   height: 500px;
   width: 300px;
   border: black solid;
   background-color: white;
+  border-radius: 10px;
 }
-.section5 .pack1:not(:hover).pack1 .packimg {
+.section5 .packscont .pack1:not(:hover).pack1 .packimg {
   -webkit-animation: packimgreverse 0.4s ease forwards;
           animation: packimgreverse 0.4s ease forwards;
 }
-.section5 .pack1 .packdiv {
+.section5 .packscont .packdiv {
   height: 100%;
   width: 100%;
   position: relative;
   cursor: pointer;
 }
-.section5 .pack1 .packdiv:hover .packimg {
+.section5 .packscont .packdiv:active {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.section5 .packscont .packdiv:hover .packimg {
   -webkit-animation-name: packimg;
           animation-name: packimg;
   -webkit-animation-duration: 0.15s;
@@ -970,7 +1024,7 @@ header .containerdiv .icons .icon {
   -webkit-animation-play-state: running;
           animation-play-state: running;
 }
-.section5 .pack1 .packdiv .packimg {
+.section5 .packscont .packdiv .packimg {
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
@@ -989,6 +1043,7 @@ header .containerdiv .icons .icon {
   width: 300px;
   border: black solid;
   background-color: white;
+  border-radius: 10px;
 }
 .section5 .pack2:not(:hover).pack2 .packimg {
   -webkit-animation: packimgreverse 0.4s ease forwards;
@@ -999,6 +1054,10 @@ header .containerdiv .icons .icon {
   width: 100%;
   position: relative;
   cursor: pointer;
+}
+.section5 .pack2 .packdiv:active {
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 .section5 .pack2 .packdiv:hover .packimg {
   -webkit-animation-name: packimg;
@@ -1036,6 +1095,7 @@ header .containerdiv .icons .icon {
   width: 300px;
   border: black solid;
   background-color: white;
+  border-radius: 10px;
 }
 .section5 .pack3:not(:hover).pack3 .packimg {
   -webkit-animation: packimgreverse 0.4s ease forwards;
@@ -1046,6 +1106,10 @@ header .containerdiv .icons .icon {
   width: 100%;
   position: relative;
   cursor: pointer;
+}
+.section5 .pack3 .packdiv:active {
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 .section5 .pack3 .packdiv:hover .packimg {
   -webkit-animation-name: packimg;
@@ -1083,6 +1147,7 @@ header .containerdiv .icons .icon {
   width: 300px;
   border: black solid;
   background-color: white;
+  border-radius: 10px;
 }
 .section5 .pack4:not(:hover).pack4 .packimg {
   -webkit-animation: packimgreverse 0.4s ease forwards;
@@ -1093,6 +1158,10 @@ header .containerdiv .icons .icon {
   width: 100%;
   position: relative;
   cursor: pointer;
+}
+.section5 .pack4 .packdiv:active {
+  cursor: -webkit-grab;
+  cursor: grab;
 }
 .section5 .pack4 .packdiv:hover .packimg {
   -webkit-animation-name: packimg;
