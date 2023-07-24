@@ -745,10 +745,23 @@ header{
     margin-top:30px;
     background: linear-gradient(50deg, blue, red);
 
+    @media (max-width:900px){
+        height:150px;
+        }
+
+
+
+
 
     @media (max-width:485px){
         height:150px;
     }
+    @media (max-width:700px){
+            height:120px;
+    }
+    @media (max-width:450px){
+        height:100px;
+}
 
 
     .develop{
@@ -756,12 +769,20 @@ header{
         font-family: 'Pangolin', cursive;
         color: yellow;
         font-weight: bold;
-        @media (max-width:485px){
+
+        @media (max-width:900px){
+           font-size:25px;
+            }
+            @media (max-width:700px){
+                font-size: 23px;
+            }
+        @media (max-width:450px){
             font-size: 20px;
         }
         @media (max-width:385px){
             font-size: 15px;
         }
+       
     }
 
     .nether{    
@@ -770,6 +791,16 @@ header{
         @media (max-width:485px){
             width: 100px;
         }
+
+        @media (max-width:900px){
+            width:80px;
+            }
+            @media (max-width:700px){
+                width:70px;
+                }
+                @media (max-width:450px){
+                    width:50px;
+            }
 
     }
 }
