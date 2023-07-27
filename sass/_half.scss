@@ -103,25 +103,21 @@
             position: absolute;
             z-index: 100;
             top:5%;
-            transition: 0.15s;
+            transition: 1s;
 
-            animation-fill-mode: forwards;
-                animation-play-state: paused;
-                transition: transform 0.5s ease;
+            
             
             
 
             &:hover{
-                animation-name: saibotmove;
-                animation-duration: 1s;
-                animation-play-state: running;
+               
+              
+                
                 transform: scale(1.1);
                     
             }
 
-            &:not(:hover).saibot {
-                animation: bottomtotop2 0.90s ease forwards; 
-              }
+            
             
         }
 
@@ -142,30 +138,6 @@
             }
         }
 
-    }
-}
-
-@keyframes bottomtotop2 {
-    0%{
-        top:20%
-    }
-    100%{
-        top:5%;
-    }
-}
-
-
-
-
-
-
-
-@keyframes saibotmove {
-    0%{
-        top:5%;
-    }
-    100%{
-        top:20%;
     }
 }
 }

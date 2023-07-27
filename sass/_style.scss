@@ -8,6 +8,9 @@
 
 
 header{
+    position: fixed;
+    z-index: 10000;
+    width: 100%;;
     background-color: rgb(0, 0, 0);
     padding: 4px 20px;
     
@@ -654,11 +657,11 @@ header{
                 transition: 0.30s;
                 position: absolute;
                 left: 0.2%;
-                top:0%;
+                top:5%;
 
-                animation-fill-mode: forwards;
-                animation-play-state: paused;
-                transition: transform 0.5s ease;
+               
+
+                
                
 
 
@@ -667,43 +670,24 @@ header{
                 
                 &:hover{
                     
-                    animation-name: toptobottom;
-                    animation-duration: 1s;
-                    animation-play-state: running;
+                    
+                    
+                    
                     transform: scale(1.1);
+                    transition-delay: 0.5s;
                     transition: 1s;
+                    animation-delay: 0.5s;
 
 
                     
                 }
 
 
-                &:not(:hover).skorpion {
-                    animation: bottomtotop 0.90s ease forwards; 
-                    transition: 1s;
-                  }
+                
 
 
 
-                @keyframes toptobottom {
-                    0%{
-                        top:0%;
-                    }
-                    100%{
-                        top:13%;
-                    }
-                }
-
-
-                @keyframes bottomtotop {
-                    0%{
-                        top:13%;
-
-                    }
-                    100%{
-                        top:0%;
-                    }
-                }
+                
 
 
                 @media (max-width:1250px){
