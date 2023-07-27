@@ -1075,6 +1075,7 @@ html {
           justify-content: space-between;
   margin: 0 0;
   width: 100%;
+  padding: 0;
 }
 .section5 .container .new {
   border-radius: 50px;
@@ -1104,6 +1105,11 @@ html {
     font-size: 30px;
   }
 }
+@media (max-width: 417px) {
+  .section5 .container .new .to {
+    font-size: 20px;
+  }
+}
 .section5 .packscont {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1122,7 +1128,7 @@ html {
 .section5 .packscont .pack1 {
   margin-top: 40px;
   height: 500px;
-  width: 300px;
+  width: 280px;
   border: black solid;
   background-color: rgba(119, 0, 255, 0.072);
   border-radius: 10px;
@@ -1171,6 +1177,11 @@ html {
   top: 46%;
   font-size: 25px;
   font-family: "mklatino";
+}
+@media (max-width: 322px) {
+  .section5 .packscont .packdiv .same {
+    font-size: 20px;
+  }
 }
 .section5 .packscont .packdiv .same2 {
   color: rgb(255, 255, 255);
@@ -1331,10 +1342,11 @@ html {
 .section5 .pack4 {
   margin-top: 40px;
   height: 500px;
-  width: 300px;
+  width: 280px;
   border: black solid;
   background-color: rgba(255, 0, 0, 0.141);
   border-radius: 10px;
+  border: none;
 }
 .section5 .pack4:not(:hover).pack4 .packimg {
   -webkit-animation: packimgreverse 0.4s ease forwards;
@@ -1342,7 +1354,7 @@ html {
 }
 .section5 .pack4 .packdiv {
   height: 100%;
-  width: 100%;
+  width: 280px;
   position: relative;
   cursor: pointer;
 }
