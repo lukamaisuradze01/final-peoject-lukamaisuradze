@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
 @font-face {
   font-family: 'mklatino'; 
   src: url('../FONTS/MkLatinoPlain.ttf') format('truetype');
@@ -5,24 +10,46 @@
 
 
 .section5{
+  background-image:url('../img/main2.png') ;
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.374);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+    margin-top:50px;
+
+  
 
 height:700px;
 
 justify-content: space-around;
 align-items: center;
 flex-wrap: wrap;
+
+
+
+@media (max-width:1399px){
+  height:100%;
+}
 .container{
+ 
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 
+  margin: 0 0;
+  width:100%;
+  
+
 
 
 
 .new{
+  border-radius: 50px;;
   height:100px;
   width: 100%;
   border-top: 3px solid #c1a768;
@@ -37,6 +64,10 @@ flex-wrap: wrap;
     font-size:50px;
     font-family: 'mklatino'; 
     color:white;
+
+    @media (max-width:828px){
+      font-size:30px; ;
+    }
   }
 }
 }
@@ -47,13 +78,18 @@ flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   width:100%;
-  justify-content: space-between;
+  justify-content: space-around;
   padding:20px 20px;
+  flex-wrap: wrap;
+  
+
+
   .pack1 {
+    margin-top:40px;
     height:500px;
     width:300px;
     border: black solid;
-    background-color: white;
+    background-color: rgba(119, 0, 255, 0.072);
 
     border-radius:10px;
 
@@ -74,19 +110,24 @@ flex-wrap: wrap;
       width: 100%;
       position: relative;
       cursor: pointer;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
       &:active{
         cursor: grab;
       }
   
 
       
-
+     
       
 
 
 
 
       &:hover{
+
+        
         .packimg{
           animation-name: packimg;
           animation-duration: 0.15s;
@@ -104,7 +145,47 @@ flex-wrap: wrap;
       
       
       
+      .same{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top:46%;
+        font-size: 25px;
+        font-family: 'mklatino'; 
+        
+      }
+      .same2{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top:55%;
+        font-size: 25px;
+        font-family: 'mklatino'; 
+      }
+
+     .includes{
+      position: absolute;
+      font-size:25px;
+      color: white;
+      top:63%;
+      font-family: 'mklatino'; 
+     }
+     .oneul{
+      position: absolute;
+      top:70%;
+      width:100%;
+      height:120px;
+      justify-content: space-between;
+      display: flex;
       
+      flex-direction: column;
+      align-items: center;
+      .oneli{
+
+        color: white;
+        font-family: 'mklatino'; 
+        font-size:20px;
+
+      }
+     }
 
 
 
@@ -130,10 +211,11 @@ flex-wrap: wrap;
 
   //xdrnjkmhenjmkljnhbdrft
   .pack2 {
+    margin-top:40px;
     height:500px;
     width:300px;
-    border: black solid;
-    background-color: white;
+    border: rgba(255, 166, 0, 0.259) solid;
+    background-color: rgba(255, 136, 0, 0.261);
     border-radius:10px;
 
 
@@ -202,10 +284,11 @@ flex-wrap: wrap;
 
 
 .pack3{
+  margin-top:40px;
   height:500px;
   width:300px;
   border: black solid;
-  background-color: white;
+  background-color: rgba(21, 255, 0, 0.259);
   border-radius:10px;
 
 
@@ -276,10 +359,11 @@ flex-wrap: wrap;
 
 //sedrftnjmkl,nhbgytrdedrgyh
 .pack4{
+  margin-top:40px;
   height:500px;
   width:300px;
   border: black solid;
-  background-color: white;
+  background-color: rgba(255, 0, 0, 0.141);
 
   border-radius:10px;
 
@@ -371,3 +455,5 @@ flex-wrap: wrap;
 }
 }
 }
+
+

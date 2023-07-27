@@ -1,7 +1,5 @@
 header {
-  position: fixed;
   z-index: 10000;
-  width: 100%;
   background-color: rgb(0, 0, 0);
   padding: 4px 20px;
 }
@@ -401,7 +399,7 @@ header .containerdiv .icons .icon {
   padding: 10px;
   background-color: rgb(49, 47, 45);
   border: rgb(107, 72, 3) solid 5px;
-  height: 350px;
+  height: 450px;
   width: 620px;
   border-radius: 10px;
   display: -webkit-box;
@@ -746,7 +744,32 @@ header .containerdiv .icons .icon {
       -ms-flex-align: center;
           align-items: center;
 }
+@media (max-width: 1000px) {
+  .main2 .section4 {
+    height: 800px;
+  }
+}
+@media (max-width: 780px) {
+  .main2 .section4 {
+    height: 600px;
+  }
+}
+@media (max-width: 600px) {
+  .main2 .section4 {
+    height: 460px;
+  }
+}
+@media (max-width: 360px) {
+  .main2 .section4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
 .main2 .section4 .half {
+  margin-right: 10px;
   height: 780x;
   width: 600px;
   border: rgb(107, 72, 3) solid 6px;
@@ -757,13 +780,54 @@ header .containerdiv .icons .icon {
   border-bottom-left-radius: 10px;
   background-color: rgba(0, 0, 0, 0.46);
 }
+@media (max-width: 1100px) {
+  .main2 .section4 .half {
+    height: 600px;
+    width: 480px;
+    overflow-y: auto;
+  }
+}
+@media (max-width: 960px) {
+  .main2 .section4 .half {
+    height: 500px;
+    width: 400px;
+  }
+}
+@media (max-width: 780px) {
+  .main2 .section4 .half {
+    height: 350px;
+    width: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .main2 .section4 .half {
+    height: 200px;
+    width: 200px;
+  }
+}
 .main2 .section4 .half .tag {
   color: white;
   Font-size: 50px;
   font-family: "mklatino";
 }
+@media (max-width: 1100px) {
+  .main2 .section4 .half .tag {
+    font-size: 40px;
+  }
+}
+@media (max-width: 780px) {
+  .main2 .section4 .half .tag {
+    font-size: 25px;
+  }
+}
 .main2 .section4 .half .tag .mk {
+  font-size: 50px;
   color: rgb(255, 187, 0);
+}
+@media (max-width: 780px) {
+  .main2 .section4 .half .tag .mk {
+    font-size: 27px;
+  }
 }
 .main2 .section4 .half .myhr {
   border: rgb(107, 72, 3) solid 3px;
@@ -785,6 +849,16 @@ header .containerdiv .icons .icon {
       -ms-flex-align: center;
           align-items: center;
 }
+@media (max-width: 1100px) {
+  .main2 .section4 .half .Stories {
+    font-size: 20px;
+  }
+}
+@media (max-width: 780px) {
+  .main2 .section4 .half .Stories {
+    font-size: 15px;
+  }
+}
 .main2 .section4 .half .myp {
   color: rgb(210, 196, 4);
   font-size: 20px;
@@ -798,6 +872,18 @@ header .containerdiv .icons .icon {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media (max-width: 1100px) {
+  .main2 .section4 .half .myp {
+    font-size: 15px;
+    line-height: 15.2px;
+  }
+}
+@media (max-width: 780px) {
+  .main2 .section4 .half .myp {
+    font-size: 10px;
+    line-height: 10px;
+  }
 }
 .main2 .section4 .half2 {
   height: 500px;
@@ -816,6 +902,30 @@ header .containerdiv .icons .icon {
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 20px;
 }
+@media (max-width: 960px) {
+  .main2 .section4 .half2 {
+    height: 500px;
+    width: 400px;
+  }
+}
+@media (max-width: 844px) {
+  .main2 .section4 .half2 {
+    height: 430px;
+    width: 350px;
+  }
+}
+@media (max-width: 780px) {
+  .main2 .section4 .half2 {
+    height: 350px;
+    width: 280px;
+  }
+}
+@media (max-width: 600px) {
+  .main2 .section4 .half2 {
+    height: 200px;
+    width: 200px;
+  }
+}
 .main2 .section4 .half2:hover .sbdiv {
   opacity: 1;
   -webkit-transform: scale(1.1);
@@ -831,6 +941,25 @@ header .containerdiv .icons .icon {
   -webkit-transition: 1s;
   transition: 1s;
 }
+@media (max-width: 960px) {
+  .main2 .section4 .half2 .saibot {
+    height: 300px;
+    width: 250px;
+    top: 15%;
+  }
+}
+@media (max-width: 844px) {
+  .main2 .section4 .half2 .saibot {
+    height: 250px;
+    width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .main2 .section4 .half2 .saibot {
+    height: 140px;
+    width: 120px;
+  }
+}
 .main2 .section4 .half2 .saibot:hover {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
@@ -844,10 +973,58 @@ header .containerdiv .icons .icon {
   -webkit-transition: 1s;
   transition: 1s;
 }
+@media (max-width: 960px) {
+  .main2 .section4 .half2 .sbdiv {
+    height: 300px;
+    width: 250px;
+    top: 15%;
+  }
+}
+@media (max-width: 844px) {
+  .main2 .section4 .half2 .sbdiv {
+    height: 250px;
+    width: 200px;
+  }
+}
+@media (max-width: 600px) {
+  .main2 .section4 .half2 .sbdiv {
+    height: 140px;
+    width: 120px;
+  }
+}
 .main2 .section4 .half2 .sbdiv .sbtxt {
   color: rgb(35, 8, 99);
   font-size: 140px;
   font-family: "Pangolin", cursive;
+}
+@media (max-width: 960px) {
+  .main2 .section4 .half2 .sbdiv .sbtxt {
+    font-size: 100px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 844px) {
+  .main2 .section4 .half2 .sbdiv .sbtxt {
+    margin: 0;
+    position: absolute;
+    bottom: 80%;
+    font-size: 80px;
+  }
+}
+@media (max-width: 610px) {
+  .main2 .section4 .half2 .sbdiv .sbtxt {
+    position: absolute;
+    font-size: 50px;
+    left: 50%;
+    bottom: 90%;
+    -webkit-transform: translate(-50%, 0%);
+        -ms-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -855,15 +1032,31 @@ header .containerdiv .icons .icon {
   src: url("../FONTS/MkLatinoPlain.ttf") format("truetype");
 }
 .section5 {
+  background-image: url("../img/main2.png");
+  background-size: cover;
   background-color: rgba(0, 0, 0, 0.374);
-  height: 700px;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  height: 700px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+@media (max-width: 1399px) {
+  .section5 {
+    height: 100%;
+  }
 }
 .section5 .container {
   height: 100%;
@@ -880,8 +1073,11 @@ header .containerdiv .icons .icon {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 0;
+  width: 100%;
 }
 .section5 .container .new {
+  border-radius: 50px;
   height: 100px;
   width: 100%;
   border-top: 3px solid #c1a768;
@@ -903,6 +1099,11 @@ header .containerdiv .icons .icon {
   font-family: "mklatino";
   color: white;
 }
+@media (max-width: 828px) {
+  .section5 .container .new .to {
+    font-size: 30px;
+  }
+}
 .section5 .packscont {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -912,16 +1113,18 @@ header .containerdiv .icons .icon {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding: 20px 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .section5 .packscont .pack1 {
+  margin-top: 40px;
   height: 500px;
   width: 300px;
   border: black solid;
-  background-color: white;
+  background-color: rgba(119, 0, 255, 0.072);
   border-radius: 10px;
 }
 .section5 .packscont .pack1:not(:hover).pack1 .packimg {
@@ -933,6 +1136,14 @@ header .containerdiv .icons .icon {
   width: 100%;
   position: relative;
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .section5 .packscont .packdiv:active {
   cursor: -webkit-grab;
@@ -954,6 +1165,51 @@ header .containerdiv .icons .icon {
   -webkit-animation-play-state: running;
           animation-play-state: running;
 }
+.section5 .packscont .packdiv .same {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 46%;
+  font-size: 25px;
+  font-family: "mklatino";
+}
+.section5 .packscont .packdiv .same2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 55%;
+  font-size: 25px;
+  font-family: "mklatino";
+}
+.section5 .packscont .packdiv .includes {
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  top: 63%;
+  font-family: "mklatino";
+}
+.section5 .packscont .packdiv .oneul {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  height: 120px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section5 .packscont .packdiv .oneul .oneli {
+  color: white;
+  font-family: "mklatino";
+  font-size: 20px;
+}
 .section5 .packscont .packdiv .packimg {
   border-style: solid;
   border-width: 1px;
@@ -969,10 +1225,11 @@ header .containerdiv .icons .icon {
           transform: translate(-50%, 0%);
 }
 .section5 .pack2 {
+  margin-top: 40px;
   height: 500px;
   width: 300px;
-  border: black solid;
-  background-color: white;
+  border: rgba(255, 166, 0, 0.259) solid;
+  background-color: rgba(255, 136, 0, 0.261);
   border-radius: 10px;
 }
 .section5 .pack2:not(:hover).pack2 .packimg {
@@ -1020,10 +1277,11 @@ header .containerdiv .icons .icon {
           transform: translate(-50%, 0%);
 }
 .section5 .pack3 {
+  margin-top: 40px;
   height: 500px;
   width: 300px;
   border: black solid;
-  background-color: white;
+  background-color: rgba(21, 255, 0, 0.259);
   border-radius: 10px;
 }
 .section5 .pack3:not(:hover).pack3 .packimg {
@@ -1071,10 +1329,11 @@ header .containerdiv .icons .icon {
           transform: translate(-50%, 0%);
 }
 .section5 .pack4 {
+  margin-top: 40px;
   height: 500px;
   width: 300px;
   border: black solid;
-  background-color: white;
+  background-color: rgba(255, 0, 0, 0.141);
   border-radius: 10px;
 }
 .section5 .pack4:not(:hover).pack4 .packimg {

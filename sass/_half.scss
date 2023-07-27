@@ -13,7 +13,32 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+
+
+    @media (max-width:1000px){
+        height:800px;
+    }
+
+    @media (max-width:780px){
+        height:600px;
+    }
+    @media (max-width:600px){
+        height:460px;
+    }
+   
+
+    @media (max-width:360px){
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+   
     .half{
+        margin-right:10px;
+
+
         height:780x;
         width:600px;
         border: rgb(107, 72, 3) solid 6px;
@@ -23,14 +48,51 @@
         border-top-right-radius: 10px;
         border-bottom-left-radius: 10px;
         background-color: rgba(0, 0, 0, 0.46);
+
+
+        @media (max-width:1100px){
+            height:600px;
+            width:480px;   
+            overflow-y: auto  
+           }
+
+           @media (max-width:960px){
+            height:500px;
+            width:400px;
+           
+               }
+
+               @media (max-width:780px){
+                height:350px;
+                width:300px;
+                
+               }
+
+               @media (max-width:600px){
+                height:200px;
+                width:200px;
+               }
        
 
         .tag{
             color: white;
             Font-size: 50px;
             font-family: 'mklatino'; 
+
+
+            @media (max-width:1100px){
+            font-size: 40px;
+               }
+
+               @media (max-width:780px){
+                font-size: 25px;
+               }
             .mk{
+                font-size: 50px;
                 color:rgb(255, 187, 0);
+                @media (max-width:780px){
+                    font-size: 27px;
+                   }
                 
                 
                 
@@ -44,12 +106,19 @@
             
         }
         .Stories{
+            
             font-family: 'mklatino'; 
             font-size: 30px;
             color: rgb(255, 179, 0);
             display: flex;
             justify-content: center;
             align-items: center;
+            @media (max-width:1100px){
+                font-size: 20px;
+                   }
+                   @media (max-width:780px){
+                    font-size: 15px;
+                   }
 
         }
         .myp{
@@ -59,6 +128,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            @media (max-width:1100px){
+                font-size: 15px;
+                line-height: 15.2px;
+                   }
+                   @media (max-width:780px){
+                    font-size: 10px;
+                    line-height: 10px;;
+                   }
         }
     }
 
@@ -86,6 +163,26 @@
         border-top-right-radius: 20px;
         border-bottom-right-radius: 50%;
         border-bottom-left-radius: 20px;
+
+        @media (max-width:960px){
+            height:500px;
+            width:400px;
+               }
+
+               @media (max-width:844px){
+                height:430px;
+                width:350px;
+               }
+
+               @media (max-width:780px){
+                height:350px;
+                width:280px;
+               }
+
+               @media (max-width:600px){
+                height:200px;
+                width:200px;
+               }
         
 
         &:hover{
@@ -104,6 +201,22 @@
             z-index: 100;
             top:5%;
             transition: 1s;
+
+            @media (max-width:960px){
+               height:300px;
+               width: 250px;
+               top:15%;
+                   }
+
+                   @media (max-width:844px){
+                    height:250px;
+                    width:200px;
+                   }
+
+                   @media (max-width:600px){
+                        height: 140px;
+                        width:120px;
+                   }
 
             
             
@@ -127,12 +240,56 @@
             width:350px;
             opacity: 0;
             transition: 1s;
+
+
+            @media (max-width:960px){
+                height:300px;
+                width: 250px;
+                top:15%;
+                    }
+ 
+                    @media (max-width:844px){
+                     height:250px;
+                     width:200px;
+                    }
+ 
+                    @media (max-width:600px){
+                         height: 140px;
+                         width:120px;
+                    }
             
             
             .sbtxt{
                 color: rgb(35, 8, 99);
                 font-size:140px;
                 font-family: 'Pangolin', cursive;
+
+
+                @media (max-width:960px){
+                    font-size: 100px;
+                    margin-left:0px;
+                }
+                @media (max-width:844px){
+                    margin: 0;
+                    position: absolute;
+                    bottom:80%;
+                    font-size: 80px;
+                }
+                @media (max-width:610px){
+                    position: absolute;
+                    font-size:50px;
+                    left:50%;
+                   
+                    bottom: 90%;
+                    transform: translate(-50%, -0%);
+
+                    
+               }
+
+
+
+
+                
                 
                
             }
