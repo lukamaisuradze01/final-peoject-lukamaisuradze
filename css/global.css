@@ -1525,6 +1525,13 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.section7 .sec7div:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .section7 .sec7div .href .trailers {
   height: 100px;
@@ -1680,6 +1687,9 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: solid orange 5px;
+  border-radius: 5px;
+  background-color: rgb(30, 30, 30);
 }
 .footer .fd2 .myul .myli {
   font-size: 40px;
