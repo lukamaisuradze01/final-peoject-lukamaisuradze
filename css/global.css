@@ -1489,4 +1489,233 @@ html {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.section7 {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  border-bottom: 2px solid #c1a768;
+}
+.section7 .sec7div {
+  width: 90%;
+  height: 90%;
+  background-image: url("../img/game-info-top-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  border: 2px solid #c1a768;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section7 .sec7div .href .trailers {
+  height: 100px;
+  width: 200px;
+  border: none;
+  background-color: rgb(76, 121, 8);
+  border-radius: 50px;
+  border: 2px solid #d29b1a;
+  font-size: 25px;
+  color: rgb(46, 46, 46);
+  font-family: "mklatino";
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.section7 .sec7div .href .trailers:hover {
+  height: 120px;
+  width: 220px;
+}
+
+.section8 {
+  width: 100%;
+  height: 400px;
+  padding: 30px;
+  background-image: url("../img/mid-bg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(30, 30, 30, 0.792);
+  border-bottom: 2px solid #c1a768;
+}
+.section8 .sec8cont {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section8 .sec8cont .box1 {
+  height: 200px;
+  width: 400px;
+  cursor: pointer;
+  background-image: url("../img/ultimate-reveal-t.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border: 3px solid rgb(255, 217, 0);
+}
+.section8 .sec8cont .box1:hover {
+  height: 220px;
+  width: 420px;
+}
+.section8 .sec8cont .box1 .base {
+  font-size: 40px;
+  font-family: "mklatino";
+  text-shadow: 10px 10px 10px rgba(255, 217, 0, 0.487);
+  color: rgb(255, 217, 0);
+}
+.section8 .sec8cont .box2 {
+  height: 200px;
+  width: 400px;
+  cursor: pointer;
+  background-image: url("../img/aftermath-gameplay-t.jpg");
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border: 3px solid rgb(255, 217, 0);
+}
+.section8 .sec8cont .box2:hover {
+  height: 220px;
+  width: 420px;
+}
+.section8 .sec8cont .box2 .after {
+  text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.463);
+  font-size: 40px;
+  font-family: "mklatino";
+  color: rgb(255, 179, 0);
+}
+
+.footer {
+  padding: 30px;
+  background-color: black;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.footer .tbcdiv .tbc {
+  width: 80px;
+  border-radius: 50%;
+}
+.footer .fd2 {
+  width: 600px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer .fd2 .myul {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer .fd2 .myul .myli {
+  font-size: 40px;
+  color: rgb(255, 251, 0);
+  font-family: "mklatino";
+  font-weight: bold;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.footer .fd2 .myul .myli:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  color: orange;
+}
+.footer .div3 {
+  height: 100%;
+  width: 400px;
+}
+.footer .div3 .form {
+  height: 100%;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .div3 .form .sub {
+  color: rgb(255, 132, 0);
+  font-family: "mklatino";
+  font-size: 30px;
+  cursor: pointer;
+}
+.footer .div3 .form .gmail {
+  height: 40px;
+  width: 240px;
+  border: none;
+  background-color: white;
+  padding: 10px;
 }/*# sourceMappingURL=global.css.map */
