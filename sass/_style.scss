@@ -10,11 +10,14 @@
 header{
     
     z-index: 10000;
-    
+   
     background-color: rgb(0, 0, 0);
     padding: 4px 20px;
+    position: fixed;
+    width:100%;
     
     .containerdiv{
+        
         
         display: flex;
         justify-content: space-between;

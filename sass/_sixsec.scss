@@ -134,6 +134,11 @@
                 height:220px;
                 width:420px;
             }
+
+            &:active{
+                height:250px;
+                width:450px;
+            }
             .base{
                 font-size: 40px;
                 font-family: 'mklatino';
@@ -161,6 +166,10 @@
                     height:220px;
                     width:420px;
                 
+            }
+            &:active{
+                height:250px;
+                width:450px;
             }
             .after{
                 text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.463);
@@ -247,10 +256,28 @@
                 background-color: white;
                 padding: 10px;
 
-                &:active{
+                
+
+            }
+
+            .submitt{
+                height:30px;
+                width:80px;
+                color:white;
+                font-family: 'mklatino';
+                font-size:20px;
+                background-color:green;
+                border-radius:10px;
+                border: none;
+                transition: 0.30s;
+                &:hover{
                     
+                    width:90px;
                 }
 
+                &:active{
+                    background-color:rgb(48, 106, 48);
+                }
             }
         }
     }

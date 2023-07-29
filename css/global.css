@@ -2,6 +2,8 @@ header {
   z-index: 10000;
   background-color: rgb(0, 0, 0);
   padding: 4px 20px;
+  position: fixed;
+  width: 100%;
 }
 header .containerdiv {
   display: -webkit-box;
@@ -1590,6 +1592,10 @@ html {
   height: 220px;
   width: 420px;
 }
+.section8 .sec8cont .box1:active {
+  height: 250px;
+  width: 450px;
+}
 .section8 .sec8cont .box1 .base {
   font-size: 40px;
   font-family: "mklatino";
@@ -1620,6 +1626,10 @@ html {
 .section8 .sec8cont .box2:hover {
   height: 220px;
   width: 420px;
+}
+.section8 .sec8cont .box2:active {
+  height: 250px;
+  width: 450px;
 }
 .section8 .sec8cont .box2 .after {
   text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.463);
@@ -1718,4 +1728,22 @@ html {
   border: none;
   background-color: white;
   padding: 10px;
+}
+.footer .div3 .form .submitt {
+  height: 30px;
+  width: 80px;
+  color: white;
+  font-family: "mklatino";
+  font-size: 20px;
+  background-color: green;
+  border-radius: 10px;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.footer .div3 .form .submitt:hover {
+  width: 90px;
+}
+.footer .div3 .form .submitt:active {
+  background-color: rgb(48, 106, 48);
 }/*# sourceMappingURL=global.css.map */
