@@ -180,13 +180,15 @@ body{
             }
 
             &:hover{
-                height:220px;
-                width:420px;
+                transform: scale(1.01);
+                //height:220px;
+                //width:420px;
             }
 
             &:active{
-                height:250px;
-                width:450px;
+                transform: scale(1.1);
+                //height:250px;
+                //width:450px;
             }
             .base{
                 font-size: 40px;
@@ -223,14 +225,15 @@ body{
                 width:220px;
             }
             &:hover{
-               
-                    height:220px;
-                    width:420px;
+                    transform: scale(1.01);
+                    //height:220px;
+                    //width:420px;
                 
             }
             &:active{
-                height:250px;
-                width:450px;
+                transform: scale(1.1);
+                //height:250px;
+                //width:450px;
             }
             .after{
                 text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.463);

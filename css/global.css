@@ -1719,12 +1719,14 @@ body {
   }
 }
 .section8 .sec8cont .box1:hover {
-  height: 220px;
-  width: 420px;
+  -webkit-transform: scale(1.01);
+      -ms-transform: scale(1.01);
+          transform: scale(1.01);
 }
 .section8 .sec8cont .box1:active {
-  height: 250px;
-  width: 450px;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .section8 .sec8cont .box1 .base {
   font-size: 40px;
@@ -1766,12 +1768,14 @@ body {
   }
 }
 .section8 .sec8cont .box2:hover {
-  height: 220px;
-  width: 420px;
+  -webkit-transform: scale(1.01);
+      -ms-transform: scale(1.01);
+          transform: scale(1.01);
 }
 .section8 .sec8cont .box2:active {
-  height: 250px;
-  width: 450px;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .section8 .sec8cont .box2 .after {
   text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.463);
