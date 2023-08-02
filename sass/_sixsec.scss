@@ -81,13 +81,33 @@ body{
 }
 
 .section7{
+    padding-top:10px;
     width: 100%;
     height:300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: black;
     border-bottom: 2px solid #c1a768;
+    padding-bottom: 20px;;
+
+
+    .updates{
+        height:100px;
+        .updateh1{
+            font-size:40px;
+            color:rgb(255, 166, 0);
+            font-family: 'mklatino';
+
+            @media (max-width:500px){
+                font-size:26px;
+            }
+            @media (max-width:311px){
+                font-size:22px;
+            }
+        }
+    }
     .sec7div{
         width:90%;
         height:90%;

@@ -83,12 +83,12 @@ flex-wrap: wrap;
   flex-direction: row;
   width:100%;
   justify-content: space-evenly;
-  padding:20px 20px;
+  padding:20px 0px;
   flex-wrap: wrap;
 
 
   @media (max-width:767px){
-    width:300px;
+    width:280px;
   }
   
 
@@ -96,8 +96,8 @@ flex-wrap: wrap;
   .pack1 {
     margin-top:40px;
     height:500px;
-    width:300px;
-    border: black solid;
+    width:280px;
+   
     background-color: rgba(119, 0, 255, 0.072);
 
     border-radius:10px;
@@ -226,8 +226,8 @@ flex-wrap: wrap;
   .pack2 {
     margin-top:40px;
     height:500px;
-    width:300px;
-    border: rgba(255, 166, 0, 0.259) solid;
+    width:280px;
+    
     background-color: rgba(255, 136, 0, 0.261);
     border-radius:10px;
 
@@ -299,8 +299,8 @@ flex-wrap: wrap;
 .pack3{
   margin-top:40px;
   height:520px;
-  width:300px;
-  border: black solid;
+  width:280px;
+  
   background-color: rgba(21, 255, 0, 0.259);
   border-radius:10px;
 

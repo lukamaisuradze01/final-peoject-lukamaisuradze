@@ -1,26 +1,5 @@
 body {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer and Edge */
-}
-
-body::-webkit-scrollbar {
-  display: block;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #b9b9b9;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #4a4a4a;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -472,7 +451,8 @@ header .containerdiv .icons .icon {
   }
 }
 .main .s-2 .div1 {
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: rgb(49, 47, 45);
   border: rgb(107, 72, 3) solid 5px;
   height: 450px;
@@ -538,7 +518,7 @@ header .containerdiv .icons .icon {
 }
 @media (max-width: 600px) {
   .main .s-2 .div1 .game {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 @media (max-width: 434px) {
@@ -593,7 +573,7 @@ header .containerdiv .icons .icon {
 }
 @media (max-width: 600px) {
   .main .s-2 .div1 .learn {
-    height: 35px;
+    height: 30px;
     width: 88px;
     font-size: 14px;
   }
@@ -711,7 +691,7 @@ header .containerdiv .icons .icon {
   border-top: rgb(107, 72, 3) solid 5px;
   border-bottom: rgb(107, 72, 3) solid 5px;
   width: 100%;
-  height: 210px;
+  padding: 40px;
   background-color: rgb(59, 59, 59);
   padding: 10px 30px;
   display: -webkit-box;
@@ -729,26 +709,6 @@ header .containerdiv .icons .icon {
           align-items: center;
   margin-top: 30px;
   background: linear-gradient(50deg, blue, red);
-}
-@media (max-width: 900px) {
-  .main .section3 {
-    height: 150px;
-  }
-}
-@media (max-width: 485px) {
-  .main .section3 {
-    height: 150px;
-  }
-}
-@media (max-width: 700px) {
-  .main .section3 {
-    height: 120px;
-  }
-}
-@media (max-width: 450px) {
-  .main .section3 {
-    height: 100px;
-  }
 }
 .main .section3 .develop {
   font-size: 28px;
@@ -1198,20 +1158,19 @@ html {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 20px 20px;
+  padding: 20px 0px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 @media (max-width: 767px) {
   .section5 .packscont {
-    width: 300px;
+    width: 280px;
   }
 }
 .section5 .packscont .pack1 {
   margin-top: 40px;
   height: 500px;
-  width: 300px;
-  border: black solid;
+  width: 280px;
   background-color: rgba(119, 0, 255, 0.072);
   border-radius: 10px;
 }
@@ -1320,8 +1279,7 @@ html {
 .section5 .pack2 {
   margin-top: 40px;
   height: 500px;
-  width: 300px;
-  border: rgba(255, 166, 0, 0.259) solid;
+  width: 280px;
   background-color: rgba(255, 136, 0, 0.261);
   border-radius: 10px;
 }
@@ -1372,8 +1330,7 @@ html {
 .section5 .pack3 {
   margin-top: 40px;
   height: 520px;
-  width: 300px;
-  border: black solid;
+  width: 280px;
   background-color: rgba(21, 255, 0, 0.259);
   border-radius: 10px;
 }
@@ -1603,11 +1560,16 @@ body {
 }
 
 .section7 {
+  padding-top: 10px;
   width: 100%;
   height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1616,6 +1578,25 @@ body {
           align-items: center;
   background-color: black;
   border-bottom: 2px solid #c1a768;
+  padding-bottom: 20px;
+}
+.section7 .updates {
+  height: 100px;
+}
+.section7 .updates .updateh1 {
+  font-size: 40px;
+  color: rgb(255, 166, 0);
+  font-family: "mklatino";
+}
+@media (max-width: 500px) {
+  .section7 .updates .updateh1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 311px) {
+  .section7 .updates .updateh1 {
+    font-size: 22px;
+  }
 }
 .section7 .sec7div {
   width: 90%;
