@@ -1,6 +1,10 @@
 
 body {
     scroll-behavior: smooth;
+
+    @media (min-width:2100px){
+        padding:0px 400px;
+    }
   }
   
  

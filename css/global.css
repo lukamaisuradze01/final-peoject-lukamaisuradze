@@ -1,6 +1,11 @@
 body {
   scroll-behavior: smooth;
 }
+@media (min-width: 2100px) {
+  body {
+    padding: 0px 400px;
+  }
+}
 
 header {
   background-color: rgb(0, 0, 0);
@@ -1951,4 +1956,178 @@ body {
 }
 .footer .div3 .form .submitt:active {
   background-color: rgb(48, 106, 48);
+}
+
+body {
+  background-image: url("../img/mid-bg.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header2 {
+  border-bottom: #6b4803 solid 6px;
+  height: 114px;
+  padding: 20px;
+}
+.header2 .containerdiv2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.header2 .containerdiv2 .logodiv2 {
+  width: 220px;
+}
+@media (max-width: 438px) {
+  .header2 .containerdiv2 .logodiv2 {
+    display: none;
+  }
+}
+.header2 .containerdiv2 .logodiv2 .logo2 {
+  width: 100%;
+}
+@media (max-width: 438px) {
+  .header2 .containerdiv2 .buttondiv {
+    width: 100%;
+    padding: 0% 10%;
+  }
+}
+.header2 .containerdiv2 .buttondiv .goback {
+  background-color: rgba(43, 43, 43, 0.918);
+  color: rgb(129, 129, 129);
+  border: none;
+  border-radius: 3px;
+  -webkit-transform: skewX(-20deg);
+      -ms-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 20px;
+  height: 70px;
+  width: 150px;
+}
+.header2 .containerdiv2 .buttondiv .goback .insideppppp {
+  -webkit-transform: skewX(20deg);
+      -ms-transform: skewX(20deg);
+          transform: skewX(20deg);
+}
+.header2 .containerdiv2 .buttondiv .goback:hover {
+  background-color: rgba(87, 87, 87, 0.918);
+  height: 80px;
+}
+@media (max-width: 438px) {
+  .header2 .containerdiv2 .buttondiv .goback {
+    width: 100%;
+  }
+}
+
+.contactsection {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contactsection .contactcont {
+  border: rgb(107, 72, 3) solid 6px;
+  background-image: url("../img/main2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1250px;
+  width: 90%;
+  margin: 0 auto;
+  height: 600px;
+  border-radius: 3%;
+  padding: 30px;
+}
+.contactsection .contactcont .contactcontcontact {
+  color: white;
+  font-size: 40px;
+  font-family: "mklatino";
+}
+.contactsection .contactcont .idkdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 400px;
+}
+.contactsection .contactcont .idkdiv .idkbut {
+  height: 80px;
+  width: 160px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(43, 43, 43, 0.918);
+  -webkit-transform: skewX(-20deg);
+      -ms-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  color: rgb(129, 129, 129);
+  font-size: 20px;
+  font-family: "mklatino";
+  cursor: pointer;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+.contactsection .contactcont .idkdiv .idkbut:hover {
+  height: 100px;
+}
+.contactsection .contactcont .idkdiv .idkbut .insidepp {
+  -webkit-transform: skewX(20deg);
+      -ms-transform: skewX(20deg);
+          transform: skewX(20deg);
+}
+.contactsection .contactcont .idkdiv .idkcontacthead {
+  color: rgb(255, 179, 0);
+  font-size: 40px;
+  font-family: "mklatino";
+}
+@media (max-width: 438px) {
+  .contactsection .contactcont .idkdiv .idkcontacthead {
+    font-size: 20px;
+  }
+}
+.contactsection .contactcont .idkdiv .idkcontact {
+  color: rgb(255, 115, 0);
+  font-size: 30px;
+  font-family: "mklatino";
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.contactsection .contactcont .idkdiv .idkcontact:hover {
+  color: rgb(255, 150, 64);
+}
+@media (max-width: 438px) {
+  .contactsection .contactcont .idkdiv .idkcontact {
+    font-size: 17px;
+  }
+}
+.contactsection .contactcont .idkdiv .locations {
+  color: rgb(255, 255, 255);
+  font-family: "mklatino";
+  font-size: 25px;
+}
+@media (max-width: 438px) {
+  .contactsection .contactcont .idkdiv .locations {
+    font-size: 20px;
+  }
+}
+.contactsection .contactcont .idkdiv .hrrr {
+  width: 50%;
+  background-color: rgb(255, 170, 0);
+  border: none;
+  height: 3px;
+  border-radius: 3px;
 }/*# sourceMappingURL=global.css.map */

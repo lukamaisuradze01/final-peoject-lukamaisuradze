@@ -1,0 +1,165 @@
+body{
+    background-image: url("../img/mid-bg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header2{
+    border-bottom: #6b4803 solid 6px;
+    height:114px;
+    padding: 20px;
+    .containerdiv2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+
+        .logodiv2{
+            width: 220px;;
+
+
+            @media (max-width:438px){
+                display: none;
+            }
+
+
+            
+            .logo2{
+                width: 100%;
+
+            }
+        }
+        .buttondiv{
+            @media (max-width:438px){
+                width:100%;
+                padding: 0% 10%;
+                
+                
+                
+            }
+            .goback{
+                background-color: rgba(43, 43, 43, 0.918);
+                color:rgb(129, 129, 129);
+                border: none;
+                border-radius: 3px;
+                transform: skewX(-20deg);
+                
+                transition: 0.30s;
+                cursor: pointer;
+                font-size: 20px;
+                height:70px;
+                width:150px;
+                .insideppppp{
+                    transform: skewX(20deg);
+                }
+
+                &:hover{
+                    background-color: rgba(87, 87, 87, 0.918);
+                    height: 80px;
+
+                }
+                @media (max-width:438px){
+                    width:100%;
+                    
+                    
+                }
+            }
+        }
+    }
+
+}
+.contactsection{
+    margin-top:30px;
+    margin-bottom: 30px;
+
+    
+    
+    .contactcont{
+        border: rgb(107, 72, 3) solid 6px;
+
+        background-image: url("../img/main2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width:1250px;
+        width:90%;
+        margin: 0 auto;
+        height:600px;
+        border-radius: 3%;
+        padding:30px;
+        .contactcontcontact{
+            color:white;
+            font-size:40px;
+            font-family: 'mklatino';
+        }
+        .idkdiv{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            height: 400px;;
+            .idkbut{
+                height: 80px;
+                width:160px;
+                border:none;
+                border-radius: 3px;
+                background-color: rgba(43, 43, 43, 0.918);
+                transform: skewX(-20deg);
+                color:rgb(129, 129, 129);
+                font-size:20px;
+                font-family: 'mklatino';
+                cursor:pointer;
+                transition: 0.15s;
+                &:hover{
+                    height:100px;
+                }
+                .insidepp{
+                    transform: skewX(20deg);
+                }
+            }
+            .idkcontacthead{
+                color: rgb(255, 179, 0);
+                font-size:40px;
+                font-family: 'mklatino';
+                @media (max-width:438px){
+                    font-size: 20px;
+                    
+                    
+                }
+            }
+            .idkcontact{
+                color: rgb(255, 115, 0);
+                font-size:30px;
+                font-family: 'mklatino';
+                cursor: pointer;
+                transition: 0.30s;
+                
+                &:hover{
+                    color:rgb(255, 150, 64)
+                }
+                @media (max-width:438px){
+                   font-size:17px;
+                    
+                    
+                }
+            }
+            .locations{
+                color: rgb(255, 255, 255);
+                font-family: 'mklatino';
+                font-size: 25px;
+                @media (max-width:438px){
+                    font-size:20px;
+                     
+                     
+                 }
+            }
+            .hrrr{
+                width:50%;
+                background-color: rgb(255, 170, 0);
+                border: none;
+                height:3px;
+                border-radius: 3px;
+            }
+        }
+    }
+}
