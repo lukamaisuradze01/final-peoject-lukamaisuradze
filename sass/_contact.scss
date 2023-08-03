@@ -84,19 +84,53 @@ body{
         max-width:1250px;
         width:90%;
         margin: 0 auto;
-        height:600px;
         border-radius: 3%;
         padding:30px;
-        .contactcontcontact{
-            color:white;
-            font-size:40px;
-            font-family: 'mklatino';
+        display: flex;
+        justify-content: space-between;
+
+
+        @media (max-width:795px){
+            flex-direction: column;
         }
+
+        .contactusdiv{
+            display: flex;
+            flex-direction: column;
+            
+            align-items: center;
+            justify-content: space-between;
+
+            padding: 0px 20px;
+            .contactcontcontact{
+                color:white;
+                font-size:40px;
+                font-family: 'mklatino';
+            }
+
+            .hear{
+                color: white;
+                font-size:45px;
+                font-family: 'mklatino';
+
+                @media (max-width:570px){
+                    font-size:30px;
+                }
+                @media (max-width:409px){
+                    font-size:25px;
+                }
+                }
+        }
+
+
+
+        
         .idkdiv{
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
+          
             height: 400px;;
             .idkbut{
                 height: 80px;
@@ -110,6 +144,7 @@ body{
                 font-family: 'mklatino';
                 cursor:pointer;
                 transition: 0.15s;
+
                 &:hover{
                     height:100px;
                 }
@@ -154,11 +189,109 @@ body{
                  }
             }
             .hrrr{
-                width:50%;
+                width:100%;
                 background-color: rgb(255, 170, 0);
                 border: none;
                 height:3px;
                 border-radius: 3px;
+            }
+        }
+    }
+}
+
+
+.contactsection2{
+    .form3{
+        width:90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height:340px;
+
+        .formwrapper{
+           display: flex;
+           width: 60%;
+           justify-content: space-between;
+           align-items: center;
+           height: 150px;
+
+           @media (max-width:500px){
+            width: 90%;
+           }
+
+
+            .form1{
+                height: 100px;;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                .messages{
+                    color: var(--primary-text, #a9a9a9);
+                    font-family: 'mklatino';
+                    font-size: 12px;
+                    
+                }
+                .formtext{
+                    
+                    width:96%;
+                    height:40px;
+                    padding: 5px 10px;
+                    border-radius: 3px;
+                    border: none;
+                    margin: 3px 0px;
+                    
+                    
+
+                }
+            }
+            .form2{
+                height: 100px;;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                .messages{
+                    color: var(--primary-text, #a9a9a9);
+
+                    font-family: 'mklatino';
+                    font-size: 12px;
+                }
+                .formtext{
+                   height: 40px;;
+                    width:96%;
+                    padding: 5px 10px;
+                    border-radius: 3px;
+                    border: none;
+                    margin: 3px 0px;
+
+
+                    
+
+                }
+                
+            }
+        }
+        .formwrapper2{
+            width:60%;
+            display: flex;
+            height:60%;
+            flex-direction: column;
+            margin-bottom: 20px;
+            .messages{
+                color: var(--primary-text, #a4a4a4);
+                font-family: 'mklatino';
+            }
+
+
+            .textarea{
+                
+                width: 98%;
+                height:100%;
+                border-radius: 3px;
+                border: none;
             }
         }
     }

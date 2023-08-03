@@ -1862,7 +1862,7 @@ body {
   background-color: rgb(30, 30, 30);
 }
 .footer .fd2 .myul .myli {
-  font-size: 40px;
+  font-size: 30px;
   color: rgb(255, 251, 0);
   font-family: "mklatino";
   font-weight: bold;
@@ -2040,14 +2040,58 @@ body {
   max-width: 1250px;
   width: 90%;
   margin: 0 auto;
-  height: 600px;
   border-radius: 3%;
   padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-.contactsection .contactcont .contactcontcontact {
+@media (max-width: 795px) {
+  .contactsection .contactcont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.contactsection .contactcont .contactusdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0px 20px;
+}
+.contactsection .contactcont .contactusdiv .contactcontcontact {
   color: white;
   font-size: 40px;
   font-family: "mklatino";
+}
+.contactsection .contactcont .contactusdiv .hear {
+  color: white;
+  font-size: 45px;
+  font-family: "mklatino";
+}
+@media (max-width: 570px) {
+  .contactsection .contactcont .contactusdiv .hear {
+    font-size: 30px;
+  }
+}
+@media (max-width: 409px) {
+  .contactsection .contactcont .contactusdiv .hear {
+    font-size: 25px;
+  }
 }
 .contactsection .contactcont .idkdiv {
   display: -webkit-box;
@@ -2125,9 +2169,122 @@ body {
   }
 }
 .contactsection .contactcont .idkdiv .hrrr {
-  width: 50%;
+  width: 100%;
   background-color: rgb(255, 170, 0);
   border: none;
   height: 3px;
   border-radius: 3px;
+}
+
+.contactsection2 .form3 {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 340px;
+}
+.contactsection2 .form3 .formwrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+}
+@media (max-width: 500px) {
+  .contactsection2 .form3 .formwrapper {
+    width: 90%;
+  }
+}
+.contactsection2 .form3 .formwrapper .form1 {
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contactsection2 .form3 .formwrapper .form1 .messages {
+  color: var(--primary-text, #a9a9a9);
+  font-family: "mklatino";
+  font-size: 12px;
+}
+.contactsection2 .form3 .formwrapper .form1 .formtext {
+  width: 96%;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  margin: 3px 0px;
+}
+.contactsection2 .form3 .formwrapper .form2 {
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contactsection2 .form3 .formwrapper .form2 .messages {
+  color: var(--primary-text, #a9a9a9);
+  font-family: "mklatino";
+  font-size: 12px;
+}
+.contactsection2 .form3 .formwrapper .form2 .formtext {
+  height: 40px;
+  width: 96%;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  margin: 3px 0px;
+}
+.contactsection2 .form3 .formwrapper2 {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+.contactsection2 .form3 .formwrapper2 .messages {
+  color: var(--primary-text, #a4a4a4);
+  font-family: "mklatino";
+}
+.contactsection2 .form3 .formwrapper2 .textarea {
+  width: 98%;
+  height: 100%;
+  border-radius: 3px;
+  border: none;
 }/*# sourceMappingURL=global.css.map */
